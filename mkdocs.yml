@@ -1,4 +1,5 @@
 site_name: PlusMin documentatie
 
-theme:
-  name: readthedocs
+plugins:
+  - search
+  - git-revision-date

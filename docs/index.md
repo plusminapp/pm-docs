@@ -1,15 +1,19 @@
-# `PlusMin`
+﻿# `PlusMin`
 
-**Versie**: 23 oktober 2024  
+**Versie**: Page last revised on: {{ git_revision_date }} </br>
 **Auteur**: Ruud van Vliet
+
+## Disclaimer
+
+De documentatie is 'in wording', net zoals de app zelf trouwens.
 
 ## Overzicht
 
-`PlusMin` is een open-source project gericht op de ondersteuning van administratiemaatjes (zie bijvoorbeeld https://lsta.nl/, https://www.humanitas.nl/thuisadministratie/ of https://schuldhulpmaatje.nl/) bij het begeleiden van hulpvragers. 
+`PlusMin` is een open-source project gericht op de ondersteuning van administratiemaatjes (zie bijvoorbeeld [LSTA](https://lsta.nl/), [humanitas thuisadministratie](https://www.humanitas.nl/thuisadministratie/) of [schuldhulpmaatje](https://schuldhulpmaatje.nl/)) bij het begeleiden van hulpvragers. 
 
 `PlusMin` is: Inkomsten en uitgaven, Overschot/buffer en tekort, Wiskunde voor iedereen, Niet digi en niet theoretisch.
 
-Dit gereedschap helpt administratiemaatjes en hulpvragers bij het budgetteren, monitoren van inkomsten en uitgaven, en het voorkomen van onverwachte financiële problemen. Het doel is een laagdrempelige digitale oplossing te bieden, in combintaie met een o.a. een 'papieren' versie, die eenvoudig te gebruiken is voor hulpvragers met beperkte digitale vaardigheden en minimale apparatuur, zoals een alleen mobiele telefoon.
+Dit gereedschap helpt administratiemaatjes en hulpvragers bij het budgetteren, monitoren van inkomsten en uitgaven. Het voorkomt  onverwachte financiële problemen. Het doel is een laagdrempelige digitale oplossing te bieden, in combintaie met o.a. een 'papieren' versie. Het moet eenvoudig te gebruiken zijn voor hulpvragers met beperkte digitale vaardigheden en minimale apparatuur, zoals alleen een mobiele telefoon.
 
 Het administratiemaatjes krijgt toegang, ook van huis uit, tot de gegevens die de hulpvrager wil delen, zonder dat er toegang tot een bankrekening wordt gegeven, en zonder dat die gegevens mee naar huis worden genomen.
 
@@ -48,17 +52,10 @@ Het gereedschap biedt ondersteuning voor de volgende functionaliteiten:
 5. **Afwijkingen signaleren**  
    Als het werkelijke uitgavenpatroon te ver afwijkt van het verwachte patroon, kan het systeem waarschuwen en eventueel een melding sturen naar het administratiemaatje, mits de hulpvrager daar toestemming voor geeft.
 
-## Installatie
-
-Instructies voor installatie en gebruik volgen nog. De eerste versie zal gericht zijn op webapp, mobiel voor de functies voor de hulpvrager en op een 'groot' scherm voor het administratiemaatje.
-
 ## Bijdragen
 
-Dit project staat open voor bijdragen. Suggesties, bug reports, en pull requests zijn van harte welkom.
+Dit project staat open voor bijdragen. Suggesties, bug reports, en pull requests zijn van harte welkom. De source code wordt beheerd op [Github](https://github.com/plusminapp).
 
-## Licentie
-
-Dit project is gelicenseerd onder de MIT-licentie. Zie de [LICENSE](https://www.mit.edu/~amini/LICENSE.md)  voor meer informatie.
 
 
 

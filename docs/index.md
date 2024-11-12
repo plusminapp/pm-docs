@@ -1,6 +1,6 @@
 ﻿# `PlusMin`
 
-**Versie**: Page last revised on: {{ git_revision_date }} </br>
+**Versie**: {{ git_revision_date }} </br>
 **Auteur**: Ruud van Vliet
 
 ## Disclaimer

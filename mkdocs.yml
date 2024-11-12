@@ -3,3 +3,4 @@ site_name: PlusMin documentatie
 plugins:
   - search
   - git-revision-date
+  - glightbox

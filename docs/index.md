@@ -9,7 +9,7 @@ De documentatie is 'in wording', net zoals de app zelf trouwens.
 
 ## Overzicht
 
-`PlusMin` is een open-source project gericht op de ondersteuning van administratiemaatjes (zie bijvoorbeeld [LSTA](https://lsta.nl/), [humanitas thuisadministratie](https://www.humanitas.nl/thuisadministratie/) of [schuldhulpmaatje](https://schuldhulpmaatje.nl/)) bij het begeleiden van hulpvragers. 
+`PlusMin` is **collaboratie platform**, in de vorm van open-source software, gericht op de **ondersteuning** van **administratiemaatjes** (zie bijvoorbeeld [LSTA](https://lsta.nl/), [humanitas thuisadministratie](https://www.humanitas.nl/thuisadministratie/) of [schuldhulpmaatje](https://schuldhulpmaatje.nl/)) bij het begeleiden van **hulpvragers** i.h.k.v. **financiële uitdagingen**. 
 
 `PlusMin` is: Inkomsten en uitgaven, Overschot/buffer en tekort, Wiskunde voor iedereen, Niet digi en niet theoretisch.
 

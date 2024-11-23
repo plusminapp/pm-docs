@@ -1,0 +1,6 @@
+## Default .htaccess file
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+AddDefaultCharset utf-8

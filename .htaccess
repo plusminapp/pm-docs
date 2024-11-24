@@ -3,4 +3,6 @@ RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
 
+ErrorDocument 404   https://plusminapp.nl/404.html
+
 AddDefaultCharset utf-8

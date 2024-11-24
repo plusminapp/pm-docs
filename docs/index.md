@@ -9,11 +9,11 @@ De documentatie is 'in wording', net zoals de app zelf trouwens.
 
 ## Overzicht
 
-`PlusMin` is **collaboratie platform**, in de vorm van open-source software, gericht op de **ondersteuning** van **administratiemaatjes** (zie bijvoorbeeld [LSTA](https://lsta.nl/), [humanitas thuisadministratie](https://www.humanitas.nl/thuisadministratie/) of [schuldhulpmaatje](https://schuldhulpmaatje.nl/)) bij het begeleiden van **hulpvragers** i.h.k.v. **financiële uitdagingen**. 
+`PlusMin` is **collaboratie platform**, in de vorm van open-source software, gericht op de **ondersteuning** van **administratiemaatjes** (zie bijvoorbeeld [LSTA](https://lsta.nl/), [humanitas thuisadministratie](https://www.humanitas.nl/thuisadministratie/) of [schuldhulpmaatje](https://schuldhulpmaatje.nl/)) bij het begeleiden van **hulpvragers** i.h.k.v. **financi&euml;le uitdagingen**. 
 
 `PlusMin` is: Inkomsten en uitgaven, Overschot/buffer en tekort, Wiskunde voor iedereen, Niet digi en niet theoretisch.
 
-Dit gereedschap helpt administratiemaatjes en hulpvragers bij het budgetteren, monitoren van inkomsten en uitgaven. Het voorkomt  onverwachte financiële problemen. Het doel is een laagdrempelige digitale oplossing te bieden, in combintaie met o.a. een 'papieren' versie. Het moet eenvoudig te gebruiken zijn voor hulpvragers met beperkte digitale vaardigheden en minimale apparatuur, zoals alleen een mobiele telefoon.
+Dit gereedschap helpt administratiemaatjes en hulpvragers bij het budgetteren, monitoren van inkomsten en uitgaven. Het voorkomt  onverwachte financi&euml;le problemen. Het doel is een laagdrempelige digitale oplossing te bieden, in combintaie met o.a. een 'papieren' versie. Het moet eenvoudig te gebruiken zijn voor hulpvragers met beperkte digitale vaardigheden en minimale apparatuur, zoals alleen een mobiele telefoon.
 
 Het administratiemaatjes krijgt toegang, ook van huis uit, tot de gegevens die de hulpvrager wil delen, zonder dat er toegang tot een bankrekening wordt gegeven, en zonder dat die gegevens mee naar huis worden genomen.
 
@@ -37,8 +37,8 @@ Hulpvragers zijn vaak minder digitaal vaardig en hebben niet altijd toegang tot 
 
 Het gereedschap biedt ondersteuning voor de volgende functionaliteiten:
 
-1. **Budgetcategorieën opstellen**  
-   hulpvragers en administratiemaatjes kunnen samen duidelijke categorieën bepalen waarin inkomsten en uitgaven worden onderverdeeld.
+1. **Budgetcategorie&euml;n opstellen**  
+   hulpvragers en administratiemaatjes kunnen samen duidelijke categorie&euml;n bepalen waarin inkomsten en uitgaven worden onderverdeeld.
 
 2. **Budgettering per periode**  
    Per categorie kan een budget worden vastgesteld voor een bepaalde periode (week, maand, kwartaal of jaar), met een verwachte uitputtingssnelheid.

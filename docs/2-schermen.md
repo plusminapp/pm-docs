@@ -6,5 +6,5 @@
 ## Vrijwilliger
 ![Image title](./img/PlusMin%20schermen%20VW.png)
 
-## Coördinator
+## co&ouml;rdinator
 ![Image title](./img/PlusMin%20schermen%20CD.png)

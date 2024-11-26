@@ -9,7 +9,7 @@ een inkomst of uitgave die in 1 transactie heeft plaatsgevonden; meestal gewoon 
 ### budget
 de hoeveelheid geld die beschikbaar is voor een categorie gedurende een periode
 ### categorie
-soort betaling: inkomsten, wonen, boodschappen, ... TODO; op hoofdlijnen onderscheiden we 5 (of 6?) categorie&euml;n: inkomsten, vaste lasten, boodschappen, variabele lasten en afbetalingen; TODO: wat doen we met reserveringen?
+soort betaling: inkomsten, wonen, boodschappen, ... TODO; op hoofdlijnen onderscheiden we 5 (of 6?) categorie&euml;n: inkomsten, vaste lasten, boodschappen, anders en afbetalingen; TODO: wat doen we met reserveringen?
 ### co&ouml;rdinator
 de rol van een gebruiker die een vrijwilliger koppelt aan een hulpvrager; de co&ouml;rdinator heeft toegang tot de hulpvragers en vrijwilligers en kan de koppeling daartussen bewerken; de co&ouml;rdinator heeft ook toegang tot de audit logging
 ### gebruiker

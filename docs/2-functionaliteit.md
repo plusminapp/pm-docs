@@ -1,4 +1,22 @@
-﻿# Verwerking betalingen
+﻿#Funtionele beschrijving
+
+## Gebruiker
+
+### Rollen en aanmaken gebruikers
+
+Er zijn 3 rollen:
+
+- co&ouml;rdinator
+- vrijwilliger
+- hulpvrager
+
+De co&ouml;rdinator voert andere co&ouml;rdinatoren, vrijwilligers en hulpvragers op in Asgardeo. Hiermee kan een gebruiker inloggen op de app. Als de gebruiker nog niet bestaat wordt deze automatisch aangemaakt, zonder profiel. De gebruiker kan daarna zijn eigen profiel (m.u.v. de rollen) al aanpassen. Door het gebrek aan rol kan de nieuwe gebruiker verder nog niets.
+
+Voor andere co&ouml;rdinatoren en vrijwilligers wijst de co&ouml;rdinator ook de rollen toe. Voor hulpvragers is dit optioneel: zodra een vrijwilliger een hulpvrager onder de hoede neemt wordt de hulpvrager rol automatisch toegewezen.
+
+
+
+## Verwerking betalingen
 
 ### Betalingen Model
 

@@ -4,3 +4,4 @@ plugins:
   - search
   - git-revision-date
   - glightbox
+  - autorefs

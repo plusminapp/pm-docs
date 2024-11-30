@@ -1,0 +1,56 @@
+### Categorie&euml;n
+
+PlusMin onderscheidt de volgende categorie&euml;n (de voorbeelden zijn niet uitputtend):
+
+- **Inkomsten**: Salaris, uitkering, AOW, ...
+- **Boodschappen**: Voedsel, schoonmaakmiddelen, ...
+- **Vaste lasten**: Huur, hypotheek, gemeente belastingen, energie, water, verzekeringen, wegenbelasting, ...
+- **Anders**: Kleding, variabele vervoerskosten, niet vergoede medische kosten, persoonlijke verzorging, cadeautjes,
+  identiteitsbewijs, ...
+- **Aflossing**: Betalingen voor een betaalregeling
+- **Besteding reservering**: Storting op/opname voor toekomstige uitgaven
+
+### Bron en bestemming
+
+De app legt de bron (waarmee werd betaald?) en de bestemming (aan wie is betaald?) van de betaling vast:
+
+|                    | Als bron                      | Als bestemming                               |
+|--------------------|-------------------------------|----------------------------------------------|
+| **Extern**         | bij inkomsten                 | bij betalingen                               |
+| **Betaalrekening** | betaling met een pin of Ideal | bij inkomsten                                |
+| **Spaarrekening**  | opname van spaargeld          | storting van spaargeld                       |
+| **Creditcard**     | betaling met een creditcard   | afbetalen van de creditcard schuld           |
+| **Contant geld**   | betaling met contant geld     | opname van contant geld uit een geldautomaat |
+
+Naast de standaard rekeningen zijn er ook pseudo rekeningen als bron en bestemming:
+
+|                    | Als bron                            | Als bestemming |
+|--------------------|-------------------------------------|----------------|
+| **Betaalregeling** | nvt?                                | aflossing      |
+| **Reservering**    | aanschaf/betaling van gereserveerde | automatisch    |
+
+TODO: hoe bedden we de pseudo rekeningen in, in de UI???
+
+### Bron en bestemming per categorie
+
+Op basis van de categorie wordt bepaald wat de bron en wat de bestemming kan zijn:
+
+| Categorie    | Standaard ontvangst (+)   | Standaard betaling (-)    | Bijzonderheden                     |
+|--------------|---------------------------|---------------------------|------------------------------------|
+| Inkomsten    | Extern -> Betaalrekening* | nvt                       |                                    |
+| Boodschappen | nvt                       | Betaalrekening* -> Extern |                                    |
+| Vaste lasten | nvt                       | Betaalrekening* -> Extern |                                    |
+| Anders       | nvt                       | Betaalrekening* -> Extern |                                    |
+| Aflossing    | nvt                       | Betaalrekening* -> Extern | welke betaalregeling werd afgelost |
+
+Bij interne boekingen (kruisposten) moet zowel de brons als de bestemming worden opgegeven; het gaat dan over het
+schuiven van geld tussen de verschillende rekeningen.
+
+| Categorie    | Standaard ontvangst (+)         | Standaard betaling (-)          | Bijzonderheden |
+|--------------|---------------------------------|---------------------------------|----------------|
+| Intern       | Spaarrekening -> Betaalrekening | Betaalrekening -> Spaarrekening |                |
+| Contant geld | Contant geld -> Betaalrekening  | Betaalrekening -> Contant geld  |                |
+
+\* Voor de categorie&euml;n Inkomsten, Boodschappen, Vaste lasten, Anders en Betalingsregelingen kan bij het
+boeken ook gekozen worden voor Contant geld of Creditcard i.p.v. Betaalrekening. Hierbij is per categorie in te stellen
+wat als standaard moet worden gehanteerd.

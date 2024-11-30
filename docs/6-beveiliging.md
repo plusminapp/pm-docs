@@ -40,13 +40,12 @@ De App is opgebouwd uit 3 lagen:
 
 ## Minimaliseren van de opgeslagen gegevens
 
-Van een hulpvrager wordt het e-mailadres (als identificatie), een zelfgekozen bijnaam en een door de vrijwilliger
-gekozen pseudoniem opgenomen. Daarnaast, noodzakelijkerwijs, de betalingen, de categorie&euml;n en de
-betalingsachterstanden. Periodiek wordt de administratie 'afgesloten' en worden alle betalingen geaggregeerd en de
-detailbetalingen verwijderd. Als de hulpvrager wil kan zij/hij instellen dat ook de geaggregeerde gegevens worden
-verwijderd.
+Van een hulpvrager wordt het e-mailadres (als identificatie) en een zelfgekozen bijnaam. Daarnaast, noodzakelijkerwijs,
+de betalingen, de categorie&euml;n en de betalingsachterstanden. Periodiek wordt de administratie 'afgesloten' en worden
+alle betalingen geaggregeerd en de detailbetalingen verwijderd. Als de hulpvrager wil kan zij/hij instellen dat ook de
+geaggregeerde gegevens worden verwijderd.
 
-De bijnaam wordt op het scherm gebruikt om de hulpvrager te begroeten. Het pseudoniem wordt gebruikt om de vrijwilliger
-in staat te stellen, bij het starten van een app, de hulpvrager te kiezen. Door een pseudoniem te gebruiken wordt de
-identiteit van andere hulpvragers niet getoond.
+De bijnaam wordt op het scherm gebruikt om de hulpvrager te begroeten en om de vrijwilliger in staat te stellen, bij het
+starten van een app, de hulpvrager te kiezen. Door een bijnaam te gebruiken wordt de identiteit van andere hulpvragers
+niet getoond.
 

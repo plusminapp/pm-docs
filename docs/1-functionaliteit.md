@@ -58,7 +58,7 @@ Onderstaand diagram geeft schematisch de 10 betalingssoorten weer.
 
 ![](./img/PM-flow.png)
 
-Vooralsnog ga ik er vanuit dat er 1 betaalrekening, 1 spaarrekeningen en 1 creditcard is. Het systeem kan
+Vooralsnog ga ik er vanuit dat er 1 betaalrekening, 1 spaarrekeningen en 1 creditcard is. Het systeem kan (nu ook al)
 meervoudighied makkelijk aan maar de gebruikersinteractie wordt veel ingewikkelder.
 
 De boekhoudkundige verwerking van reserveringen worden automagisch opgebouwd op basis van het definieren van
@@ -96,14 +96,15 @@ TODO: is dit B1 taalgebruik? of andersom: hoe maken we hier B1 taal van? Volgens
 De informatie die bij een betaling wordt gevraagd is:
 
 - de betalingssoort
-- bij een betalingssoort met een betaalmethode: de betaalmethode
+- bij een betalingssoort met een betaalmethode: de betaalmethode (Betaalrekening, Creditcard of Contant geld)
+- een rekening met meerdere varianten (bijvoorbeeld 2 betaalregelingen): de variant van de rekening
 - datum
 - omschrijving
 - bedrag
 
 De [stand](#stand) van de balansrekeningen op de laatste boekingsdatum kan worden gebruikt om te controleren of alle
-betaling
-correct zijn verwerkt.
+betaling correct zijn verwerkt. Met de stand op de resultaatrekeningen kan worden getoetst of de budgetten toereikend
+zijn.
 
 Als de betalingen van de bank via een camt053 bestand worden ingelezen worden in dat geval ook de volgende
 velden bewaard (als extra ondersteuning bij het, eventueel geautomatiseerd, toewijzen van de Categorie):
@@ -117,12 +118,12 @@ betreffende hulpvrager opgeslagen.
 
 PlusMin biedt de mogelijkheid om te kiezen op welke manier je de transacties kunt bekijken.
 
-| view naam             | visualisatie                             | velden                                                                          | opmerking                                                                        |
-|-----------------------|------------------------------------------|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| dagboek               | chronologisch overzicht alle boekingen   | header: ???<br/>per regel: datum/omschrijving/bedrag/debet/credit               | debet en credit als iconen                                                       |
-| bankboek              | chronologisch overzicht alle boekingen   | header: totaal<br/>per regel: datum/omschrijving/bedrag/categorie/betaalmethode | categorie/betaalmethode als iconen<br/>verbijzondering van  &lt;per rekening&gt; |
-| &lt;per categorie&gt; | chronologisch overzicht van de categorie | header: totaal<br/>per regel: datum/omschrijving/bedrag                         |                                                                                  |
-| &lt;per rekening&gt;  | chronologisch overzicht van de rekening  | header: totaal<br/>per regel: datum/omschrijving/bedrag                         |                                                                                  |
+| view naam             | visualisatie                             | velden                                                                               | opmerking                                                                            |
+|-----------------------|------------------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| dagboek               | chronologisch overzicht alle boekingen   | header: ???<br/>per regel: datum/omschrijving/bedrag/betalingssoort/betaald met      | "betalingssoort" en 'betaald met' als iconen                                         |
+| bankboek              | chronologisch overzicht alle boekingen   | header: totaal<br/>per regel: datum/omschrijving/bedrag/betalingssoort/betaalmethode | betalingssoort/betaalmethode als iconen<br/>verbijzondering van &lt;per rekening&gt; |
+| &lt;per categorie&gt; | chronologisch overzicht van de categorie | header: totaal<br/>per regel: datum/omschrijving/bedrag                              |                                                                                      |
+| &lt;per rekening&gt;  | chronologisch overzicht van de rekening  | header: totaal<br/>per regel: datum/omschrijving/bedrag                              |                                                                                      |
 
 Zo kan ook, als voorbeeld, een view als onderstaande spreadsheet worden opgebouwd:
 ![](./img/excel.png)
@@ -305,7 +306,7 @@ Het profiel van de gebruiker omvat:
 - voor de hulpvrager de vrijwilliger die begeleidt
 - voor de vrijwilliger de hulpvragers die zij/hij begeleidt
 - de [reserveringen](#reserveren)
-- de [betaalregelingen](#aflossen)  
+- de [betaalregelingen](#aflossen)
 - de rekeningen (betaalrekening, spaarrekening, contant en/of creditcard)
 - de standaard rekening per categorie
 - standaard inkomsten/uitgaven view(s)

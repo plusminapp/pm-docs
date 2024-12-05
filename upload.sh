@@ -11,3 +11,6 @@ set ftp:ssl-allow no;
 mirror -R ./site /web
 bye
 EOF
+
+dt=$(date '+%d/%m/%Y %H:%M:%S');
+echo "$dt"

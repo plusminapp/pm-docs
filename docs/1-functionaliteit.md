@@ -100,7 +100,7 @@ TODO: is dit B1 taalgebruik? of andersom: hoe maken we hier B1 taal van? Volgens
 
 ## Groeimodel
 
-Zoals in de beschrijving van het [ABC model](index.md#abc-zelfbeschikkingstheorie) is aangegeven moet de administratie
+Zoals in de beschrijving van de [motivatietheorie](index.md#motivatietheorie) is aangegeven, moet de administratie
 mee kunnen groeien met de hulpvrager. In de app worden de volgende niveaus onderscheiden:
 
 - basis niveau: verwerken van betalingen, periodeafsluitingen en weergave van de stand

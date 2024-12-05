@@ -9,7 +9,7 @@ De documentatie is 'in wording', net zoals de app zelf trouwens.
 
 ## Overzicht
 
-`PlusMin` is **collaboratie platform**, in de vorm van open-source software, gericht op de **ondersteuning** van
+`PlusMin` is een **collaboratie platform**, in de vorm van open-source software, gericht op de **ondersteuning** van
 **administratiemaatjes** (zie
 bijvoorbeeld [LSTA](https://lsta.nl/), [humanitas thuisadministratie](https://www.humanitas.nl/thuisadministratie/) of
 [schuldhulpmaatje](https://schuldhulpmaatje.nl/)) bij het begeleiden van **hulpvragers** i.h.k.v. **financi&euml;le
@@ -47,16 +47,27 @@ oplossing die:
 Hulpvragers zijn vaak minder digitaal vaardig en hebben niet altijd toegang tot moderne digitale hulpmiddelen. `PlusMin`
 moet daarom makkelijk bruikbaar zijn op mobiele telefoons, het meest gebruikte apparaat door hulpvragers.
 
-## ABC: Zelfbeschikkingstheorie
+## Motivatietheorie
 
-De [zelfbeschikkingstheorie](https://nl.wikipedia.org/wiki/Zelfbeschikkingstheorie) is een door Edward Deci en Richard
-M. Ryan ontwikkelde macrotheorie over de menselijke motivatie. De kern van de theorie wordt gevormd door de stelling dat
-er drie natuurlijke basisbehoeften zijn die, indien deze bevredigd worden, een optimaal functioneren, welbevinden en
-groei van een persoon toestaan. De drie basisbehoeften zijn:
+De PlusMin app is bedoeld voor mensen die zowel financieel als digitaal niet erg vaardig zijn en die hulp krijgen
+vanwege geldzorgen. Omdat langdurig gebrek aan geld zorgt voor veel stress, spant de (vrijwillige) hulpverlener zich in
+om deze stress bij de hulpvrager te verlichten waardoor deze ruimte ervaart om voldoende openheid van zaken te geven (
+inhoudelijk) en zich ook persoonlijk open te stellen voor het proces richting zelfredzaamheid. Deze aanpak, stress
+sensitief werken, volgt de zgn. zelfdeterminatietheorie die leert dat een drietal psychologische basisbehoeften cruciaal
+zijn voor motivatie. Ze verlagen de drempel om nieuw gedrag te ontwikkelen en in actie te komen. Deze basisbehoeften
+zijn:
 
-- Autonomie
-- Betrokkenheid
-- Competentie
+- **Autonomie**: De mens wil autonomie ervaren, het gevoel hebben het zelf te kunnen doen. Iedereen wil de regie over het
+leven, eigen keuzes maken en daardoor in vrijheid leven.
+- **Betrokkenheid**: Ook wel verbondenheid genoemd, betekent de behoefte om relaties aan te gaan met anderen. Het gaat om het
+gevoel onderdeel te zijn van de groep, te worden gewaardeerd en niet alleen te staan of de enige te zijn die iets
+overkomt.
+- **Competentie**: Dit is het geloof in jezelf om iets te kunnen en dat je het ook leuk vindt en er plezier aan beleeft. Het
+gevoel dat je iets zelf kan en voor elkaar kan krijgen.
+
+Concreet betekent dit bijv. een hulpvrager helpen zelf keuzes te maken (autonomie), naast de hulpvrager te staan bij het
+uitzoeken van voor- en nadelen van elke keuze en het feit dat dit soms erg lastig is (betrokkenheid) en als vrijwilliger
+geen taken over te nemen maar de hulpvrager helpen het 'zelf te doen' (competentie).
 
 Dit is de reden dat de PlusMin app onderdeel is van een ecosysteem met o.a. een papieren versie, checklists,
 opleidingen, etc. Er moet worden voorkomen dat de financi&euml;le administratie over de hulpvrager wordt uitgestort. Het

@@ -37,6 +37,18 @@ als credit
 
 de hoeveelheid geld die beschikbaar is voor een categorie gedurende een periode
 
+#### budgetrekening
+
+een rekening waarvoor een budget kan worden opgesteld (alle rekeningen met uitzondering van de bezittingen): 
+
+- Creditcard (schuld)
+- Betaalregelingen
+- Reserveringen
+- Inkomsten
+- Boodschappen
+- Vaste lasten
+- Andere uitgaven
+
 #### categorie
 
 naast de 'inkomsten', de uitgaven: 'boodschappen', 'vaste lasten', 'andere uitgaven', a.k.a. de resultaatrekeningen

@@ -57,13 +57,13 @@ sensitief werken, volgt de zgn. zelfdeterminatietheorie die leert dat een drieta
 zijn voor motivatie. Ze verlagen de drempel om nieuw gedrag te ontwikkelen en in actie te komen. Deze basisbehoeften
 zijn:
 
-- **Autonomie**: De mens wil autonomie ervaren, het gevoel hebben het zelf te kunnen doen. Iedereen wil de regie over het
-leven, eigen keuzes maken en daardoor in vrijheid leven.
-- **Betrokkenheid**: Ook wel verbondenheid genoemd, betekent de behoefte om relaties aan te gaan met anderen. Het gaat om het
-gevoel onderdeel te zijn van de groep, te worden gewaardeerd en niet alleen te staan of de enige te zijn die iets
-overkomt.
-- **Competentie**: Dit is het geloof in jezelf om iets te kunnen en dat je het ook leuk vindt en er plezier aan beleeft. Het
-gevoel dat je iets zelf kan en voor elkaar kan krijgen.
+- **Autonomie**: De mens wil autonomie ervaren, het gevoel hebben het zelf te kunnen doen. Iedereen wil de regie over
+  het leven, eigen keuzes maken en daardoor in vrijheid leven.
+- **Betrokkenheid**: Ook wel verbondenheid genoemd, betekent de behoefte om relaties aan te gaan met anderen. Het gaat
+  om het gevoel onderdeel te zijn van de groep, te worden gewaardeerd en niet alleen te staan of de enige te zijn die
+  iets overkomt.
+- **Competentie**: Dit is het geloof in jezelf om iets te kunnen en dat je het ook leuk vindt en er plezier aan beleeft.
+  Het gevoel dat je iets zelf kan en voor elkaar kan krijgen.
 
 Concreet betekent dit bijv. een hulpvrager helpen zelf keuzes te maken (autonomie), naast de hulpvrager te staan bij het
 uitzoeken van voor- en nadelen van elke keuze en het feit dat dit soms erg lastig is (betrokkenheid) en als vrijwilliger
@@ -83,24 +83,32 @@ signalen als er actie moet worden ondernomen.
 
 Het gereedschap biedt ondersteuning voor de volgende functionaliteiten:
 
-1. **Budgetcategorie&euml;n opstellen**  
-   hulpvragers en administratiemaatjes kunnen samen duidelijke categorie&euml;n bepalen waarin inkomsten en uitgaven
-   worden onderverdeeld.
+1. **PlusMin configureren**  
+   hulpvragers en vrijwilliger kunnen samen de categorie&euml;n bepalen: wat zijn de vaste laten, wat
+   rekenen we onder boodschappen, welke andere uitgaven zijn er en wat zijn de inkomsten. Daarnaast moeten de rekeningen
+   worden benoemd en een naam krijgen.
 
-2. **Budgettering/reserveren per periode**  
-   Per budgetrekening (zie de [woordenlijst](8-woordenlijst.md)) kan een budget worden vastgesteld voor een bepaalde
-   periode (week, maand, kwartaal of jaar), met een verwachte uitputtingssnelheid. Indien de budgetteringsperiode de
-   inkomstenperiode (meestal een maand) overstijgt registreert PlusMin automatisch een reservering per inkomstenperiode.
+2. **Inkomsten en uitgaven registreren**  
+   hulpvragers kunnen vervolgens eenvoudig transacties registreren en categoriseren.
 
-3. **Inkomsten en uitgaven registreren**  
-   hulpvragers kunnen eenvoudig transacties registreren en categoriseren. Er is een toekomstig plan om een koppeling met
-   bankgegevens te integreren.
+3. **Periode afsluiten**  
+   aan het einde van de inkomsten periode (dus als de nieuwe uitkering of salaris binnenkort wordt ontvangen, of al is
+   ontvangen) evalueren de vrijwilliger en hulpvrager samen de afgelopen periode, kijke wat goed ging en wat kan
+   verbeteren, en starten de nieuwe periode.
 
 4. **Visuele feedback**  
    Eenvoudige visuele signalen (zoals een stoplichtsysteem) geven aan of de registratie up-to-date is, of transacties
    correct zijn, en of het budget volgens verwachting wordt uitgeput.
 
-5. **Afwijkingen signaleren**  
+6. **Betaalregelingen aflossen**
+   Betaalregelingen kunnen worden opgevoerd zodat de voortgang op de aflossing kan worden bekeken.
+
+5. **Budgettering/reserveren per periode**  
+   Per budgetrekening (zie de [woordenlijst](8-woordenlijst.md)) kan een budget worden vastgesteld voor een bepaalde
+   periode (week, maand, kwartaal of jaar), met een verwachte uitputtingssnelheid. Indien de budgetteringsperiode de
+   inkomstenperiode (meestal een maand) overstijgt registreert PlusMin automatisch een reservering per inkomstenperiode.
+
+7. **Afwijkingen signaleren**  
    Als het werkelijke uitgavenpatroon te ver afwijkt van het verwachte patroon, kan het systeem waarschuwen en eventueel
    een melding sturen naar het administratiemaatje, mits de hulpvrager daar toestemming voor geeft.
 

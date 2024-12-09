@@ -1,4 +1,4 @@
-﻿# `PlusMin`
+﻿# `PlusMin` gereedschapskist
 
 **Versie**: {{ git_revision_date }} </br>
 **Auteur**: Ruud van Vliet
@@ -9,23 +9,22 @@ De documentatie is 'in wording', net zoals de app zelf trouwens.
 
 ## Overzicht
 
-`PlusMin` is een **collaboratie platform**, in de vorm van open-source software, gericht op de **ondersteuning** van
-**administratiemaatjes** (zie
+`PlusMin` is een **gereedschapskist** voor de **ondersteuning** van **administratiemaatjes** (zie
 bijvoorbeeld [LSTA](https://lsta.nl/), [humanitas thuisadministratie](https://www.humanitas.nl/thuisadministratie/) of
 [schuldhulpmaatje](https://schuldhulpmaatje.nl/)) bij het begeleiden van **hulpvragers** i.h.k.v. **financi&euml;le
 uitdagingen**.
 
-`PlusMin` is: Inkomsten en uitgaven, Overschot/buffer en tekort, Wiskunde voor iedereen, Niet digi en niet theoretisch.
+`PlusMin` is: Inkomsten en uitgaven, overschot/buffer en tekort, wiskunde voor iedereen, niet digi en niet theoretisch.
 
-De app wordt onderdeel van een gereedschapskist met onder andere een papieren versie, checklists, opleidingen, etc.
+Het gereedschap omvat varianten van papieren huishoudboekjes, spreadsheets, checklists, opleidingen en een app.
 
-De app helpt administratiemaatjes en hulpvragers bij het budgetteren, monitoren van inkomsten en uitgaven. Het
-voorkomt onverwachte financi&euml;le problemen. Het doel is een laagdrempelige digitale oplossing te bieden, in
-combinatie met o.a. een 'papieren' versie. Het moet eenvoudig te gebruiken zijn voor hulpvragers met beperkte digitale
+Het gereedschap helpt administratiemaatjes en hulpvragers bij het budgetteren, monitoren van inkomsten en uitgaven. Het
+voorkomt onverwachte financi&euml;le problemen. Het doel is laagdrempelige digitale oplossingen te bieden, in combinatie
+met 'papieren' versies. De digitale middelen moeten eenvoudig te gebruiken zijn voor hulpvragers met beperkte digitale
 vaardigheden en minimale apparatuur, zoals alleen een mobiele telefoon.
 
-Het administratiemaatjes krijgt toegang, ook van huis uit, tot de gegevens die de hulpvrager wil delen, zonder dat er
-toegang tot een bankrekening wordt gegeven, en zonder dat die gegevens mee naar huis worden genomen.
+Met de app krijgen administratiemaatjes toegang, ook van huis uit, tot de gegevens die de hulpvrager wil delen, zonder
+dat er toegang tot een bankrekening wordt gegeven, en zonder dat die gegevens mee naar huis worden genomen.
 
 ## Doelgroep
 
@@ -51,13 +50,12 @@ moet daarom makkelijk bruikbaar zijn op mobiele telefoons, het meest gebruikte a
 
 ## Onderscheidend vermogen
 
-1. er is een papieren versie voor digitaal niet vaardige hulpvragers, met vervolgens ook een spreadsheet versie; de app
-   heeft de rijktse functionaliteit, en is ook op
-2. het sluit aan bij de begeleiding van de hulpvrager door de vrijwilliger (fase ontwikkeling)
-3. niveaus: aansluiten bij de competentie van de hulpvrager
-4. niveaus: papier en digitaal lopen synchroon
-5. vrijwilliger kan (in de digitale versie) meekijken en meehelpen, zonder toegang tot de bank, en zonder zaken mee naar
-   huis te nemen
+1. er zijn 4 niveaus van papieren versies van het huishoudboekje voor digitaal niet vaardige hulpvragers, met vervolgens
+   ook spreadsheet versies, en de app, die aansluiten op de niveaus van de papieren versies (herkenbaarheid)
+2. het sluit daardoor aan bij de begeleiding van de hulpvrager door de vrijwilliger (fase ontwikkeling) en de
+   competentie van de hulpvrager
+3. de vrijwilliger kan (in de digitale versie) on-line meekijken en meehelpen, zonder toegang tot de bank, en zonder
+   zaken mee naar huis te nemen
 
 ## Motivatietheorie
 

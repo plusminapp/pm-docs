@@ -197,7 +197,7 @@ wordt een referentiedatum genomen, meestal het eind van de huidige inkomstenperi
 (voorbeeld: verzekeringspremie elke 6 maanden) wordt automatisch opnieuw aangemaakt als de einddatum is bereikt en het
 eindbedrag is opgenomen.
 
-In het kader van de financiële educatie is het aan te raden de reservering op de spaarrekening te laten storten; de
+In het kader van de financi&euml;le educatie is het aan te raden de reservering op de spaarrekening te laten storten; de
 besteedbare ruimte is dan beschikbaar op de betaalrekening. Voor de hulpvrager zijn de spaarrekening en de reservering
 dan synoniem geworden. Als er op de spaarrekening onvoldoende geld staat voor de reserveringen leidt dat daarom tot een
 [signaal](#signaleren).

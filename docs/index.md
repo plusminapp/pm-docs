@@ -17,15 +17,15 @@ uitdagingen**.
 
 `PlusMin` is: Inkomsten en uitgaven, Overschot/buffer en tekort, Wiskunde voor iedereen, Niet digi en niet theoretisch.
 
-Dit gereedschap helpt administratiemaatjes en hulpvragers bij het budgetteren, monitoren van inkomsten en uitgaven. Het
+De app wordt onderdeel van een gereedschapskist met onder andere een papieren versie, checklists, opleidingen, etc.
+
+De app helpt administratiemaatjes en hulpvragers bij het budgetteren, monitoren van inkomsten en uitgaven. Het
 voorkomt onverwachte financi&euml;le problemen. Het doel is een laagdrempelige digitale oplossing te bieden, in
 combinatie met o.a. een 'papieren' versie. Het moet eenvoudig te gebruiken zijn voor hulpvragers met beperkte digitale
 vaardigheden en minimale apparatuur, zoals alleen een mobiele telefoon.
 
 Het administratiemaatjes krijgt toegang, ook van huis uit, tot de gegevens die de hulpvrager wil delen, zonder dat er
 toegang tot een bankrekening wordt gegeven, en zonder dat die gegevens mee naar huis worden genomen.
-
-De app wordt onderdeel van een pakket met onder andere een papieren versie, checklists, opleidingen, etc.
 
 ## Doelgroep
 
@@ -35,17 +35,29 @@ hulpvragers in het algemeen.
 ## Probleemstelling
 
 Een deel van de mensen met geldzorgen heeft weinig digitale vaardigheden en communiceert veel via een mobiele
-telefoon (weinig overzicht, veel door elkaar). In de praktijk blijkt dat bestaande hulpmiddelen voor schuldhulpverlening
-niet voldoen aan de behoeften van administratiemaatjes en hulpvragers. Er is behoefte aan een eenvoudige, toegankelijke
-oplossing die:
+telefoon (weinig overzicht, veel door elkaar). In de praktijk blijkt dat bestaande hulpmiddelen voor hulp bij geldzorgen
+door vrijwilliegers niet voldoen aan de behoeften van administratiemaatjes en hulpvragers. Er is behoefte aan een
+eenvoudige, toegankelijke oplossing die:
 
 - Eenvoudig inkomsten en uitgaven kan registreren
-- Budgettering ondersteunt en de voortgang (uitputting) van budgetten bewaakt
+- Meegroeit met het competentieniveau en motivatie van de hulpvrager
+- Als de competentie van de hulpvrager het toelaat: budgetteren, reserveren en aflossen ondersteunt, en de voortgang
+  bewaakt
 - Heldere signalen geeft bij afwijkingen van de uitputting ten opzichte van het budget
 - Naadloos aansluit op het pakket van checklists, opleidingen, etc.
 
 Hulpvragers zijn vaak minder digitaal vaardig en hebben niet altijd toegang tot moderne digitale hulpmiddelen. `PlusMin`
 moet daarom makkelijk bruikbaar zijn op mobiele telefoons, het meest gebruikte apparaat door hulpvragers.
+
+## Onderscheidend vermogen
+
+1. er is een papieren versie voor digitaal niet vaardige hulpvragers, met vervolgens ook een spreadsheet versie; de app
+   heeft de rijktse functionaliteit, en is ook op
+2. het sluit aan bij de begeleiding van de hulpvrager door de vrijwilliger (fase ontwikkeling)
+3. niveaus: aansluiten bij de competentie van de hulpvrager
+4. niveaus: papier en digitaal lopen synchroon
+5. vrijwilliger kan (in de digitale versie) meekijken en meehelpen, zonder toegang tot de bank, en zonder zaken mee naar
+   huis te nemen
 
 ## Motivatietheorie
 
@@ -84,17 +96,18 @@ signalen als er actie moet worden ondernomen.
 Het gereedschap biedt ondersteuning voor de volgende functionaliteiten:
 
 1. **PlusMin configureren**  
-   hulpvragers en vrijwilliger kunnen samen de categorie&euml;n bepalen: wat zijn de vaste laten, wat
-   rekenen we onder boodschappen, welke andere uitgaven zijn er en wat zijn de inkomsten. Daarnaast moeten de rekeningen
-   worden benoemd en een naam krijgen.
+   hulpvragers en vrijwilliger kunnen samen de categorie&euml;n bepalen: welke Uitgave rekeningen stellen we vast en
+   welke naam geven we ze? als we een vaste lasten uitgave rekening hebben, wat zijn dan vaste laten? idem voor
+   boodschappen en wat zijn de inkomsten.
 
 2. **Inkomsten en uitgaven registreren**  
    hulpvragers kunnen vervolgens eenvoudig transacties registreren en categoriseren.
 
 3. **Periode afsluiten**  
    aan het einde van de inkomsten periode (dus als de nieuwe uitkering of salaris binnenkort wordt ontvangen, of al is
-   ontvangen) evalueren de vrijwilliger en hulpvrager samen de afgelopen periode, kijke wat goed ging en wat kan
-   verbeteren, en starten de nieuwe periode.
+   ontvangen) evalueren de vrijwilliger en hulpvrager samen de afgelopen periode (wat vind je ervan? waaraan heb je
+   vooral je geld uitgegeven? is dat ok?), kijken wat goed ging en wat kan verbeteren, schuiven indien nodig tussen
+   potjes, en starten de nieuwe periode.
 
 4. **Visuele feedback**  
    Eenvoudige visuele signalen (zoals een stoplichtsysteem) geven aan of de registratie up-to-date is, of transacties

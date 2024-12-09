@@ -24,23 +24,22 @@ Resultatenrekeningen (Categorie&euml;n)
     Inkomsten:
         (Salaris, uitkering, ...)
     Uitgaven:
-        Boodschappen
-        Vaste lasten
-        Andere uitgaven
+        (Boodschappen, vaste lasten, andere uitgaven, ...)
+
+Let op: per hulpvrager, per rekening, kunnen meerdere varianten worden benoemd. Bijvoorbeeld: Uitgaven opdelen in
+boodschappen, vaste lasten en andere uitgaven. Of verschillende betaalregelingen tegelijkertijd afbetalen.
 
 In PlusMin merkt de gebruiker hier niets van: in elke geregistreerde betaling worden zowel de debet als credit zijde in
-&eacute;&eacute;n keer opgenomen: de dubbele boeking lijkt daardoor een enkelvoudige boeking. PlusMin onderscheidt 10
+&eacute;&eacute;n keer opgenomen: de dubbele boeking lijkt daardoor een enkelvoudige boeking. PlusMin onderscheidt 8
 betalingssoorten, waarbij zowel de debet als credit zijde van de boeking worden bepaald. Het bedrag kan daardoor
 altijd als positief getal worden opgegeven.
 
-De 10 betalingssoorten met de debet en credit rekening:
+De 8 betalingssoorten met de debet en credit rekening:
 
 | BetalingsSoort          | Debet           | Credit           |
 |-------------------------|-----------------|------------------|
 | Inkomsten               | Inkomsten       | _Betaalmethode_  |
-| Boodschappen            | _Betaalmethode_ | Boodschappen     |
-| Vaste lasten            | _Betaalmethode_ | Vaste lasten     |
-| Andere uitgave          | _Betaalmethode_ | Andere uitgave   |
+| Uitgaven                | _Betaalmethode_ | Uitgaven         |
 | Aflossen betaalregeling | _Betaalmethode_ | Betaalregelingen |
 | Aflossen creditcard     | Betaalrekening  | Creditcard       |
 | Besteding reservering   | _Betaalmethode_ | Reservering      |
@@ -50,7 +49,7 @@ De 10 betalingssoorten met de debet en credit rekening:
 
 Daar waar '_Betaalmethode_' wordt gebruikt moet de gebruiker kiezen tussen Betaalrekening, Creditcard of Contant geld.
 
-Onderstaand diagram geeft deze 10 betalingssoorten schematisch weer, waarbij de pijl van debet naar credit wijst.
+Onderstaand diagram geeft deze 8 betalingssoorten schematisch weer, waarbij de pijl van debet naar credit wijst.
 
 ![](./img/PM-betalingssoort-schema.png)
 
@@ -88,9 +87,7 @@ zolang het uitzondering en niet regel is, niet in een keer helemaal mis.
 TODO: is dit B1 taalgebruik? of andersom: hoe maken we hier B1 taal van? Volgens ChatGPT:
 
 - Inkomsten
-- Boodschappen
-- Vaste lasten
-- Andere uitgave
+- Uitgaven
 - Betaling van een afgesproken bedrag
 - Betalen van je creditcardschuld
 - Geld gebruiken dat je apart hebt gezet
@@ -159,13 +156,11 @@ Een budget is een geoormerkte uitgave binnen 1 inkomsten cyclus waarvoor een bed
 rekeningen, met uitzondering van de bezittingen, kan een budget wordt opgesteld. Deze rekeningen worden de
 budgetrekeningen genoemd:
 
+- Uitgaven
 - Creditcard (schuld)
 - Betaalregelingen
-- Reserveringen
 - Inkomsten
-- Boodschappen
-- Vaste lasten
-- Andere uitgaven
+- Reserveringen
 
 Bij het inrichten van PlusMin kan per budgetrekening een budget worden vastgelegd. Hierbij kan het Nibud worden gebruikt
 voor referentie getallen. Een budget kan worden opgebouwd uit meerdere deelbudgetten (Vaste lasten = huur +
@@ -177,11 +172,11 @@ periode (bijvoorbeeld per week, maand of trimester) en een moment in die periode
 
 Enkele voorbeelden (zonder de bedragen):
 
-- huur (vaste lasten): elke maand, 1x per maand, op de 1ste
-- gas/elektra (vaste lasten): elke maand, 1x per maand, op de 4de
-- boodschappen (boodschappen): continu
-- koffie/taart met de fietsclub (anders): elke week op zondag
-- aflossing betaalregeling1 (aflossing): elke maand op de 2de vrijdag van de maand
+- huur: elke maand, 1x per maand, op de 1ste
+- gas/elektra: elke maand, 1x per maand, op de 4de
+- boodschappen: continu
+- koffie/taart met de fietsclub: elke week op zondag
+- aflossing belastingdienst: elke maand op de 2de vrijdag van de maand
 
 Naast budgetten zijn ook het [aflossingsschema](#aflossen) van de betaalregelingen en de [reserveringen](#reserveren)
 bepalend voor de beschikbare financi&euml;le ruimte per periode.
@@ -260,7 +255,7 @@ De stand van zaken gevisualiseerd: een grafische weergave van
 - het balanstotaal uitgezet in de tijd
 - de reserveringen met inzicht in de mate waarin het zal worden gehaald
 - de afbetalingsregelingen met inzicht in de resterende looptijd
-- de uitputting van Boodschappen, Vaste lasten en Andere uitgaven ten opzichte de te verwachten uitputting ervan
+- de uitputting van Uitgaven ten opzichte de te verwachten uitputting ervan
 
 TODO: nog iets anders?
 

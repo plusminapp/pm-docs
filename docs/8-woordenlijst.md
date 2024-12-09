@@ -7,7 +7,7 @@ synoniem voor vrijwilliger
 #### balansverschuiving TODO goed woord hiervoor
 
 een verschuiving van geld tussen balansrekeningen (dus Aflossen betaalregeling, Aflossen creditcard, Besteding
-reservering, Opname spaargeld, Storten spaargeld of Opname contant geld); 
+reservering, Opname spaargeld, Storten spaargeld of Opname contant geld);
 
 #### betaalmethode
 
@@ -15,18 +15,16 @@ waarvan een betaling, aflossing of besteding reservering wordt betaald: Betaalre
 
 #### betaling
 
-een inkomst of uitgave (dus Inkomsten, Boodschappen, Vaste lasten of Andere uitgave); bijvoorbeeld 1 regel op het
-bankafschrift (bij een girale betaling)
+een Inkomst of Uitgave; bijvoorbeeld 1 regel op het bankafschrift (bij een girale betaling)
 
 #### betalingssoort
 
-synoniem van boekingsssoort; bewust foutieve benaming om het naar B1 taalniveau te brengen
+synoniem van boekingsssoort; bewust foutieve benaming om het dichter bij B1 taalniveau te brengen
 
 #### boekingsssoort
 
-de 10 soorten boekingen die PlusMin onderscheidt om een boeking te doen: Inkomsten, Boodschappen, Vaste lasten, Andere
-uitgave, Aflossen betaalregeling , Aflossen creditcard, Besteding reservering, Opname spaargeld, Storten spaargeld en
-Opname contant geld
+de 8 soorten boekingen die PlusMin onderscheidt om een boeking te doen: Inkomsten, Uitgaven, Aflossen betaalregeling,
+Aflossen creditcard, Besteding reservering, Opname spaargeld, Storten spaargeld en Opname contant geld
 
 #### boeking
 
@@ -39,19 +37,17 @@ de hoeveelheid geld die beschikbaar is voor een categorie gedurende een periode
 
 #### budgetrekening
 
-een rekening waarvoor een budget kan worden opgesteld (alle rekeningen met uitzondering van de bezittingen): 
+een rekening waarvoor een budget kan worden opgesteld (alle rekeningen met uitzondering van de bezittingen):
 
 - Creditcard (schuld)
 - Betaalregelingen
 - Reserveringen
 - Inkomsten
-- Boodschappen
-- Vaste lasten
-- Andere uitgaven
+- Uitgaven
 
 #### categorie
 
-naast de 'inkomsten', de uitgaven: 'boodschappen', 'vaste lasten', 'andere uitgaven', a.k.a. de resultaatrekeningen
+de 'inkomsten' en de 'uitgaven' a.k.a. de resultaatrekeningen
 
 #### co&ouml;rdinator
 

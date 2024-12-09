@@ -17,9 +17,7 @@ In deze versie van de documentatie beperk ik me to het opvoeren van betalingen
 Bij het opvoeren van een betaling moet de gebruiker kiezen uit de volgende soorten betalingen:
 
 - Inkomsten
-- Boodschappen
-- Vaste lasten
-- Andere uitgave
+- Uitgave
 - Aflossing betaalregeling
 - Aflossen creditcard
 - Besteding reservering
@@ -31,22 +29,21 @@ Het doel is de gebruiker zoveel mogelijk aan de hand te nemen en relevante velde
 in te vullen velden per betalingssoort. Pas als de betalingssoort is gekozen worden de invoervelden getoond; tot dat
 moment worden de velden vervangen door uitgegrijsde suggestie blokken.
 
-Voor de algemene flow wordt eerst (voor betalingssoort boodschappen, vaste lasten en andere uitgaven) in een tabel de
-interactie tussen gebruiker en systeem in 2 kolommen beschreven. In de tabel worden de gebruikersactie en de daarop
-volgende systeem reactie opgesomd.
+Voor de algemene flow wordt eerst (voor betalingssoort Uitgave) in een tabel de interactie tussen gebruiker en systeem
+in 2 kolommen beschreven. In de tabel worden de gebruikersactie en de daarop volgende systeem reactie opgesomd.
 
 Vervolgens wordt per betalingssoort alleen de informatie gegeven die daarvoor nodig is.
 
-#### Boodschappen, vaste lasten en andere uitgaven
+#### Uitgave
 
-| Gebruikersactie                                                                    | Systeem reactie                                                                                                                 |
-|------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| opent de app op de telefoon, logt in, <br/>opent INKOMSTEN/UITGAVEN                | toont de standaard view voor de gebruiker                                                                                       |
-| klikt op 'toevoegen betaling'                                                      | opent de 'toevoegen betaling' dialoog<br/>datum staat default op vandaag, overige velden leeg  of afwezig                       |
-| eventueel: klikt op de datum, kiest een andere datum                               |                                                                                                                                 |
-| kiest categorie 'boodschappen'                                                     | vult de betaalmethode 'Betaalrekening' als drop-down  met andere keuzes 'Contant' of 'Credit card'                              |
-| kiest 'contant geld' ipv 'betaalrekening'<br/>vult bedrag in, als positieve waarde |                                                                                                                                 |
-| klikt op opslaan                                                                   | sluit de 'toevoegen betaling' dialoog; opent eventueel een nieuwe<br/>toont het nieuwe saldo van de betaalrekening bij de saldi |
+| Gebruikersactie                                                                    | Systeem reactie                                                                                                                                                                                            |
+|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| opent de app op de telefoon, logt in, <br/>opent INKOMSTEN/UITGAVEN                | toont de standaard view voor de gebruiker                                                                                                                                                                  |
+| klikt op 'toevoegen betaling'                                                      | opent de 'toevoegen betaling' dialoog<br/>datum staat default op vandaag, overige velden leeg  of afwezig                                                                                                  |
+| eventueel: klikt op de datum, kiest een andere datum                               |                                                                                                                                                                                                            |
+| kiest categorie 'Uitgave'                                                          | als er meerdere uitgave rekeningen zijn: geeft een drop-down met de namen van de uitgave rekeningen<br/>vult de betaalmethode 'Betaalrekening' als drop-down  met andere keuzes 'Contant' of 'Credit card' |
+| kiest 'contant geld' ipv 'betaalrekening'<br/>vult bedrag in, als positieve waarde |                                                                                                                                                                                                            |
+| klikt op opslaan                                                                   | sluit de 'toevoegen betaling' dialoog; opent eventueel een nieuwe<br/>toont het nieuwe saldo van de betaalrekening bij de saldi                                                                            |
 
 &nbsp;
 

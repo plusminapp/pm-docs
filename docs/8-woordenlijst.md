@@ -1,5 +1,9 @@
 ﻿# Woordenlijst
 
+#### actieve hulpvrager
+
+de hulpvrager voor wie de informatie wordt getoond, als een vrijwilliger is ingelogd 
+
 #### administratiemaatje
 
 synoniem voor vrijwilliger

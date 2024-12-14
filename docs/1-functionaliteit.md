@@ -34,7 +34,7 @@ In PlusMin merkt de gebruiker hier niets van: in elke geregistreerde betaling wo
 betalingssoorten, waarbij zowel de debet als credit zijde van de boeking worden bepaald. Het bedrag kan daardoor
 altijd als positief getal worden opgegeven.
 
-De 8 betalingssoorten met de debet en credit rekening:
+De 9 betalingssoorten met de debet en credit rekening:
 
 | BetalingsSoort         | Debet           | Credit                     |
 |------------------------|-----------------|----------------------------|
@@ -50,7 +50,7 @@ De 8 betalingssoorten met de debet en credit rekening:
 
 Daar waar '_Betaalmethode_' wordt gebruikt moet de gebruiker kiezen tussen Betaalrekening, Creditcard of Contant geld.
 
-Onderstaand diagram geeft deze 8 betalingssoorten schematisch weer, waarbij de pijl van debet naar credit wijst.
+Onderstaand diagram geeft deze 9 betalingssoorten schematisch weer, waarbij de pijl van debet naar credit wijst.
 
 ![](./img/PM-betalingssoort-schema.png)
 

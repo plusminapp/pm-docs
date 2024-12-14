@@ -1,0 +1,10 @@
+Op voorhand:
+3 gebruikers: 2 hv, 1 vw; 1 hv is alleen om in de lijst voor te komen
+
+Stappen:
+- UI: rekeningen aanmaken
+- UI: openingsbalans maken; afsluiten van een vorige periode?
+- UI: betalingen opvoeren
+- UI: bankboek, kasboek, dagboek
+- API?: meer betalingen?
+- UI: stand bekijken

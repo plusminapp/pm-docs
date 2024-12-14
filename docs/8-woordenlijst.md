@@ -10,7 +10,7 @@ synoniem voor vrijwilliger
 
 #### balansverschuiving TODO goed woord hiervoor
 
-een verschuiving van geld tussen balansrekeningen (dus Aflossen betaalregeling, Aflossen creditcard, Besteding
+een verschuiving van geld tussen balansrekeningen (dus Aflossen lening, Aflossen creditcard, Besteding
 reservering, Opname spaargeld, Storten spaargeld of Opname contant geld);
 
 #### betaalmethode
@@ -27,7 +27,7 @@ synoniem van boekingsssoort; bewust foutieve benaming om het dichter bij B1 taal
 
 #### boekingsssoort
 
-de 8 soorten boekingen die PlusMin onderscheidt om een boeking te doen: Inkomsten, Uitgaven, Aflossen betaalregeling,
+de 8 soorten boekingen die PlusMin onderscheidt om een boeking te doen: Inkomsten, Uitgaven, Aflossen lening,
 Aflossen creditcard, Besteding reservering, Opname spaargeld, Storten spaargeld en Opname contant geld
 
 #### boeking
@@ -44,7 +44,7 @@ de hoeveelheid geld die beschikbaar is voor een categorie gedurende een periode
 een rekening waarvoor een budget kan worden opgesteld (alle rekeningen met uitzondering van de bezittingen):
 
 - Creditcard (schuld)
-- Betaalregelingen
+- Leningen
 - Reserveringen
 - Inkomsten
 - Uitgaven
@@ -72,7 +72,7 @@ heeft toegang tot de eigen betalingen en budgetten, en de op basis daarvan berek
 #### rekeningen
 
 onderverdeling van de bezittingen en de schulden: 'betaalrekening', 'spaarrekening', 'contant geld', 'creditcard', '
-betaalregelingen' en 'reserveringen'
+leningen' en 'reserveringen'
 
 #### rol
 

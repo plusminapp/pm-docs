@@ -111,8 +111,8 @@ Het gereedschap biedt ondersteuning voor de volgende functionaliteiten:
    Eenvoudige visuele signalen (zoals een stoplichtsysteem) geven aan of de registratie up-to-date is, of transacties
    correct zijn, en of het budget volgens verwachting wordt uitgeput.
 
-6. **Betaalregelingen aflossen**
-   Betaalregelingen kunnen worden opgevoerd zodat de voortgang op de aflossing kan worden bekeken.
+6. **Leningen aflossen**
+   Leningen kunnen worden opgevoerd zodat de voortgang op de aflossing kan worden bekeken.
 
 5. **Budgettering/reserveren per periode**  
    Per budgetrekening (zie de [woordenlijst](8-woordenlijst.md)) kan een budget worden vastgesteld voor een bepaalde

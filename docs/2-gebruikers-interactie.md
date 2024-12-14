@@ -18,7 +18,7 @@ Bij het opvoeren van een betaling moet de gebruiker kiezen uit de volgende soort
 
 - Inkomsten
 - Uitgave
-- Aflossing betaalregeling
+- Aflossing lening
 - Aflossen creditcard
 - Besteding reservering
 - Opname spaargeld
@@ -47,16 +47,16 @@ Vervolgens wordt per betalingssoort alleen de informatie gegeven die daarvoor no
 
 &nbsp;
 
-#### Aflossing betaalregeling, aflossing creditcard
+#### Aflossing lening, aflossing creditcard
 
 Door de combinatie van aflossing en rente/kosten is dit de lastigste; keuze uit 2 opties, die eventueel afhankelijk van
-de betaalregeling/creditcard gekozen kunnen worden
+de lening/creditcard gekozen kunnen worden
 
 Optie1: aflossing en rente/kosten bij de invoer scheiden:
 
 | Veldnaam         | Waarde                                                                                                                                                                                                      |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| betaalregelingen | 'betaalregeling1' als drop-down  met de andere betaalregelingen als mogelijke keuzes; als er maar 1 betaalregeling (of creditcard in het geval van credit cards) is, is het een tekstveld en geen drop down |      
+| betaalregelingen | 'betaalregeling1' als drop-down  met de andere betaalregelingen als mogelijke keuzes; als er maar 1 lening (of creditcard in het geval van credit cards) is, is het een tekstveld en geen drop down |      
 | aflossing        | positief bedrag in &euro;s van de aflossing, exlusief de rente en kosten                                                                                                                                    |      
 | rente/kosten     | positief bedrag in &euro;s van de de rente en kosten, exlusief de aflossing                                                                                                                                 |      
 | betaalmethode    | 'betaalrekening' als drop-down  met andere keuzes 'Contant' of 'Credit card'; eventueel meerdere betaalrekeningen of credicards TODO bruikbaarheid beoordelen                                               |      
@@ -67,7 +67,7 @@ Optie 2: totale aflossing (dus inclusief rent/kosten) en op basis van het nieuwe
 
 | Veldnaam         | Waarde                                                                                                                                                                                                      |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| betaalregelingen | 'betaalregeling1' als drop-down  met de andere betaalregelingen als mogelijke keuzes; als er maar 1 betaalregeling (of creditcard in het geval van credit cards) is, is het een tekstveld en geen drop down |      
+| betaalregelingen | 'betaalregeling1' als drop-down  met de andere betaalregelingen als mogelijke keuzes; als er maar 1 lening (of creditcard in het geval van credit cards) is, is het een tekstveld en geen drop down |      
 | aflossing        | positief bedrag in &euro;s van de aflossing, inclusief de rente en kosten                                                                                                                                   |      
 | nieuw saldo      | positief bedrag in &euro;s van het saldo na de aflossing                                                                                                                                                    |      
 | betaalmethode    | 'betaalrekening' als drop-down  met andere keuzes 'Contant' of 'Credit card'; eventueel meerdere betaalrekeningen of credicards TODO bruikbaarheid beoordelen                                               |      

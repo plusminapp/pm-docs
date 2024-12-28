@@ -2,11 +2,16 @@
 
 #### actieve hulpvrager
 
-de hulpvrager voor wie de informatie wordt getoond, als een vrijwilliger is ingelogd 
+de hulpvrager voor wie de informatie wordt getoond, als een vrijwilliger is ingelogd
 
 #### administratiemaatje
 
 synoniem voor vrijwilliger
+
+#### balansrekening
+
+rekening waar bezittingen (Betaalrekening, Spaarrekening of Contant geld) of schulden (Creditcard, Lening of
+Reservering) op worden geboekt
 
 #### balansverschuiving TODO goed woord hiervoor
 
@@ -69,10 +74,21 @@ worden bepaald
 de rol van een gebruiker die ondersteuning vraagt en krijgt bij het organiseren van inkomsten en uitgaven; de hulpvrager
 heeft toegang tot de eigen betalingen en budgetten, en de op basis daarvan berekende stand van zaken
 
+#### inrichten
+
+om de app te kunnen gebruiken moet de volgende configuratie worden ingevoerd:
+
+- bijnaam van de gebruiker
+- rekeningen
+- de openingsbalans (de stand van de balansrekeningen)
+
 #### rekeningen
 
-onderverdeling van de bezittingen en de schulden: 'betaalrekening', 'spaarrekening', 'contant geld', 'creditcard', '
-leningen' en 'reserveringen'
+de balans- en resultaatrekeningen samen
+
+#### resulaatrekeningen
+
+de inkomsten en uitgaven rekeningen
 
 #### rol
 

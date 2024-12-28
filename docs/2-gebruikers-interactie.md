@@ -2,13 +2,16 @@
 
 ## Fasering
 
-De gebruiker die PlusMin gaat gebruiken zal een aantal fasen doorlopen:
+De gebruiker die PlusMin gaat gebruiken zal een aantal stappen doorlopen:
 
 1. aanmelden voor de app
-2. samen met de vrijwilliger configureren van de app
+2. samen met de vrijwilliger inrichten van de app
 3. opvoeren van betalingen in de app (a.k.a. het bijhouden van het huishoudboekje)
-4. bekijken van de stand van zaken
-5. afsluiten van een periode
+4. evalueren van de stand van zaken en afsluiten van een periode
+
+Na stap 4 kan met stappen 2 (wijzigen inrichting) en 3 (opvoeren betalingen) worden doorgegaan.   
+
+![](./img/PM-processtappen.png)
 
 In deze versie van de documentatie beperk ik me to het opvoeren van betalingen
 
@@ -20,10 +23,11 @@ Bij het opvoeren van een betaling moet de gebruiker kiezen uit de volgende soort
 - Uitgave
 - Aflossing lening
 - Aflossen creditcard
-- Besteding reservering
+- Besteden reservering
 - Opname spaargeld
 - Storten spaargeld
 - Opname contant geld
+- Storten contant geld
 
 Het doel is de gebruiker zoveel mogelijk aan de hand te nemen en relevante velden voor te vullen. Daarnaast wijzigen de
 in te vullen velden per betalingssoort. Pas als de betalingssoort is gekozen worden de invoervelden getoond; tot dat

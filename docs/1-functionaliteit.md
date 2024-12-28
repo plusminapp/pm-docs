@@ -36,17 +36,18 @@ altijd als positief getal worden opgegeven.
 
 De 9 betalingssoorten met de debet en credit rekening:
 
-| BetalingsSoort         | Debet           | Credit                     |
-|------------------------|-----------------|----------------------------|
-| Inkomsten              | Inkomsten       | _Betaalmethode_            |
-| Uitgaven               | _Betaalmethode_ | Uitgaven                   |
-| Aflossen lening        | _Betaalmethode_ | Lening                     |
-| Aangaan/ophogen lening | Lening          | _Betaalmethode_ of Uitgave |
-| Aflossen creditcard    | Betaalrekening  | Creditcard                 |
-| Besteding reservering  | _Betaalmethode_ | Reservering                |
-| Opname spaargeld       | Spaarrekening   | Betaalrekening             |
-| Storten spaargeld      | Betaalrekening  | Spaarrekening              |
-| Opname contant geld    | Betaalrekening  | Contant geld               |
+| BetalingsSoort        | Debet           | Credit                     |
+|-----------------------|-----------------|----------------------------|
+| Inkomsten             | Inkomsten       | _Betaalmethode_            |
+| Uitgaven              | _Betaalmethode_ | Uitgaven                   |
+| Aflossen lening       | _Betaalmethode_ | Lening                     |
+| Lenen                 | Lening          | _Betaalmethode_ of Uitgave |
+| Aflossen creditcard   | Betaalrekening  | Creditcard                 |
+| Besteding reservering | _Betaalmethode_ | Reservering                |
+| Opname spaargeld      | Spaarrekening   | Betaalrekening             |
+| Storten spaargeld     | Betaalrekening  | Spaarrekening              |
+| Opname contant geld   | Betaalrekening  | Contant geld               |
+| Storten contant geld  | Contant geld    | Betaalrekening             | 
 
 Daar waar '_Betaalmethode_' wordt gebruikt moet de gebruiker kiezen tussen Betaalrekening, Creditcard of Contant geld.
 
@@ -54,7 +55,7 @@ Onderstaand diagram geeft deze 9 betalingssoorten schematisch weer, waarbij de p
 
 ![](./img/PM-betalingssoort-schema.png)
 
-PlusMin staat toe voor elke rekening meerdere varianten te configureren. Als er meerdere varianten van een rekening
+PlusMin staat toe voor elke rekening meerdere varianten te inrichten. Als er meerdere varianten van een rekening
 zijn, moet de gebruiker de betreffende variant kiezen. Hierdoor wordt de gebruikersinteractie complexer. Er moet hier
 daarom terughoudend mee worden omgegaan.
 
@@ -72,7 +73,7 @@ administratie. Terwille van de eenvoud wordt de fout die dat gevolg heeft geacce
 
 De boekhoudkundige verwerking van reserveringen worden automagisch opgebouwd op basis van het defini&euml;ren van
 een [Reservering](#reserveren). Ook een lening of [betaalachterstand](#aflossen) wordt apart opgevoerd. De stand
-van beide rekeningen moet in een openingsbalans, tijdens de initi&euml;le configuratie, worden opgevoerd.
+van beide rekeningen moet in een openingsbalans, tijdens de initi&euml;le inrichting, worden opgevoerd.
 
 Een belangrijk voordeel van de boekhoudkundige aanpak is de eenvoud waarmee periodiek een balanstotaal kan worden
 berekend, wat een goede maat is voor de financi&euml;le gezondheid. Door deze periodieke meting in de tijd uit te zetten
@@ -204,7 +205,7 @@ besteedbare ruimte is dan beschikbaar op de betaalrekening. Voor de hulpvrager z
 dan synoniem geworden. Als er op de spaarrekening onvoldoende geld staat voor de reserveringen leidt dat daarom tot een
 [signaal](#signaleren).
 
-Een reservering wordt bij de configuratie opgevoerd:
+Een reservering wordt bij de inrichting opgevoerd:
 
 - de uitgave Resultaatrekening
 - een nadere omschrijving/naam
@@ -225,7 +226,7 @@ automatisch opgehoogd en gaat dat dus goed.
 Bij terugbetalen van leningen wordt vaak een bedrag per maand afgesproken. De rente kan in de loop van de tijd wisselen
 en de rente en kosten zijn niet altijd transparant. De looptijd van de afbetaling is dan niet op voorhand precies te
 bepalen. PlusMin kiest ervoor deze complexiteit (in het kader van eenvoud boven juistheid) plat te slaan: de afbetaling
-moet worden geconfigureerd als 'benadering'; het afbetaalde bedrag wordt volledig in mindering gebracht op de schuld.
+moet worden ingericht als 'benadering'; het afbetaalde bedrag wordt volledig in mindering gebracht op de schuld.
 Bij de restschuld wordt aangegeven dat dit een 'benadering' is die periodiek moet wordt gecorrigeerd op basis van
 informatie van de schuldeiser.
 
@@ -234,7 +235,7 @@ in 2 boekingen: de aflossing als 'aflossen lening' de rente/kosten als 'andere u
 is dan het overgemaakte bedrag. Bij een annu&iuml;teit moet er rekening worden gehouden dat de rente en de kosten in de
 loop van de tijd wijzigen. Het is altijd aan te raden bij de schuldeiser na te gaan of de PlusMin app nog klopt.
 
-Per lening (en een creditcard?) met openstaande schuld wordt bij de configuratie opgevoerd:
+Per lening (en een creditcard?) met openstaande schuld wordt bij de inrichting opgevoerd:
 
 - de periode waarmee wordt afgelost, en wanneer in die periode (zie toelichting bij [Budgetteren](#budgetteren))
 - het saldo op de startdatum

@@ -93,7 +93,7 @@ signalen als er actie moet worden ondernomen.
 
 Het gereedschap biedt ondersteuning voor de volgende functionaliteiten:
 
-1. **PlusMin configureren**  
+1. **PlusMin inrichten**  
    hulpvragers en vrijwilliger kunnen samen de categorie&euml;n bepalen: welke Uitgave rekeningen stellen we vast en
    welke naam geven we ze? als we een vaste lasten uitgave rekening hebben, wat zijn dan vaste laten? idem voor
    boodschappen en wat zijn de inkomsten.

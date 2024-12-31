@@ -34,16 +34,16 @@ In PlusMin merkt de gebruiker hier niets van: in elke geregistreerde betaling wo
 betalingssoorten, waarbij zowel de debet als credit zijde van de boeking worden bepaald. Het bedrag kan daardoor
 altijd als positief getal worden opgegeven.
 
-De 9 betalingssoorten met de debet en credit rekening:
+De 10 betalingssoorten met de debet en credit rekening:
 
 | BetalingsSoort        | Debet           | Credit                     |
 |-----------------------|-----------------|----------------------------|
 | Inkomsten             | Inkomsten       | _Betaalmethode_            |
 | Uitgaven              | _Betaalmethode_ | Uitgaven                   |
-| Aflossen lening       | _Betaalmethode_ | Lening                     |
-| Lenen                 | Lening          | _Betaalmethode_ of Uitgave |
 | Aflossen creditcard   | Betaalrekening  | Creditcard                 |
 | Besteding reservering | _Betaalmethode_ | Reservering                |
+| Lenen                 | Lening          | _Betaalmethode_ of Uitgave |
+| Aflossen lening       | _Betaalmethode_ | Lening                     |
 | Opname spaargeld      | Spaarrekening   | Betaalrekening             |
 | Storten spaargeld     | Betaalrekening  | Spaarrekening              |
 | Opname contant geld   | Betaalrekening  | Contant geld               |
@@ -58,6 +58,16 @@ Onderstaand diagram geeft deze 9 betalingssoorten schematisch weer, waarbij de p
 PlusMin staat toe voor elke rekening meerdere varianten te inrichten. Als er meerdere varianten van een rekening
 zijn, moet de gebruiker de betreffende variant kiezen. Hierdoor wordt de gebruikersinteractie complexer. Er moet hier
 daarom terughoudend mee worden omgegaan.
+
+#### Inrichten
+
+Bij het inrichten kan worden gekozen om het aantal RekeningSoorten en het aantal BetalingsSoorten te beperken.
+
+Het meest eenvoudige model heeft 3 rekeningen met 3 RekeningSoorten: Inkomsten, Uitgaven en een Betaalmethode (
+bijvoorbeeld Contant geld). Op basis hiervan zijn er 2 BetalingsSoorten mogelijk, namelijk Inkomsten en Uitgaven. Als er
+maar 1 Betaalmethode kan er voor worden gekozen deze onzichtbaar te maken in de User Interface.
+
+Het meest complexe model heeft alle RekeningSoorten en meerdere rekeningen per RekeningSoort.
 
 #### Eenvoud versus juistheid
 

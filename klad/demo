@@ -1,5 +1,7 @@
 Op voorhand:
-3 gebruikers: 2 hv, 1 vw; 1 hv is alleen om in de lijst voor te komen
+3 gebruikers: 2 hv, 1 vw;
+- hv 0 niveau 0, dus alleen INKOMSTEN en 1 UITGAVE rekening, en 1 (onzichtbare) CONTANT rekening
+- hv 1 niveau 1, dus alleen INKOMSTEN en 3 UITGAVE rekeningen, en een BETAALREKENING en een CONTANT rekening
 
 Stappen:
 - UI: rekeningen aanmaken

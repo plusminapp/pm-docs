@@ -36,18 +36,18 @@ altijd als positief getal worden opgegeven.
 
 De 10 betalingssoorten met de debet en credit rekening:
 
-| BetalingsSoort        | Debet           | Credit                     |
-|-----------------------|-----------------|----------------------------|
-| Inkomsten             | Inkomsten       | _Betaalmethode_            |
-| Uitgaven              | _Betaalmethode_ | Uitgaven                   |
-| Aflossen creditcard   | Betaalrekening  | Creditcard                 |
-| Besteding reservering | _Betaalmethode_ | Reservering                |
-| Lenen                 | Lening          | _Betaalmethode_ of Uitgave |
-| Aflossen lening       | _Betaalmethode_ | Lening                     |
-| Opname spaargeld      | Spaarrekening   | Betaalrekening             |
-| Storten spaargeld     | Betaalrekening  | Spaarrekening              |
-| Opname contant geld   | Betaalrekening  | Contant geld               |
-| Storten contant geld  | Contant geld    | Betaalrekening             | 
+| BetalingsSoort       | Debet           | Credit                     |
+|----------------------|-----------------|----------------------------|
+| Inkomsten            | Inkomsten       | _Betaalmethode_            |
+| Uitgaven             | _Betaalmethode_ | Uitgaven                   |
+| Aflossen creditcard  | Betaalrekening  | Creditcard                 |
+| Besteden reservering | _Betaalmethode_ | Reservering                |
+| Lenen                | Lening          | _Betaalmethode_ of Uitgave |
+| Aflossen lening      | _Betaalmethode_ | Lening                     |
+| Opname spaargeld     | Spaarrekening   | Betaalrekening             |
+| Storten spaargeld    | Betaalrekening  | Spaarrekening              |
+| Opname contant geld  | Betaalrekening  | Contant geld               |
+| Storten contant geld | Contant geld    | Betaalrekening             | 
 
 Daar waar '_Betaalmethode_' wordt gebruikt moet de gebruiker kiezen tussen Betaalrekening, Creditcard of Contant geld.
 
@@ -210,6 +210,18 @@ wordt een referentiedatum genomen, meestal het eind van de huidige inkomstenperi
 (voorbeeld: verzekeringspremie elke 6 maanden) wordt automatisch opnieuw aangemaakt als de einddatum is bereikt en het
 eindbedrag is opgenomen.
 
+Reserveren, de handeling van het opzij zetten van een bedrag om een toekomstige uitgave, haalt dat bedrag van het
+besteedbare budget af en is het dus een negatief bedrag. Het is een betaling van de Reservering (een balans rekening)
+naar de Uitgave rekening waar de besteding voor wordt gedaan. Het staat daardoor als een negatief bedrag op de balans.
+Dat is contra-intu&iuml;tief. Het Besteden (van de) reservering heeft geen gevolgen voor de balans: het bedrag gaat dan van
+een Betaalmethode (een balansrekening) naar Reservering (ook een balansrekening). Eigenlijk is Reserveren dus geld
+uitgeven zonder het &eacute;cht uit te geven ...
+
+TODO:
+
+- hoe modelleren we Reserveren in de UI? hoe maken we het intu&iuml;tief dat de reservering negatief op de balans drukt?
+- reserveren is nu NIET als betalingssoort gemodelleerd; is dat terecht?
+
 In het kader van de financi&euml;le educatie is het aan te raden de reservering op de spaarrekening te laten storten; de
 besteedbare ruimte is dan beschikbaar op de betaalrekening. Voor de hulpvrager zijn de spaarrekening en de reservering
 dan synoniem geworden. Als er op de spaarrekening onvoldoende geld staat voor de reserveringen leidt dat daarom tot een
@@ -225,7 +237,7 @@ Een reservering wordt bij de inrichting opgevoerd:
 
 ## Aflossen
 
-Aflossen is het afbetalen van een schuld. Bij aflossen wordt een deel van geld besteed aan rente/kosten en een deel aan
+Aflossen is het afbetalen van een lening. Bij aflossen wordt een deel van geld besteed aan rente/kosten en een deel aan
 het verminderen van schuld. Dit maakt aflossen inherent ingewikkeld. De vrijwilliger moet hier goed over worden
 ge&iuml;nstrueerd en voor de hulpvrager moet het glashelder zijn wat er van haar hem wordt verwacht.
 

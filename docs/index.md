@@ -14,7 +14,7 @@ bijvoorbeeld [LSTA](https://lsta.nl/), [humanitas thuisadministratie](https://ww
 [schuldhulpmaatje](https://schuldhulpmaatje.nl/)) bij het begeleiden van **hulpvragers** i.h.k.v. **financi&euml;le
 uitdagingen**.
 
-`PlusMin` is: Inkomsten en uitgaven, overschot/buffer en tekort, wiskunde voor iedereen, niet digi en niet theoretisch.
+`PlusMin` is: Inkomsten en uitgaven, overschot/buffer en tekort, boekhouden voor iedereen, niet digi en niet theoretisch.
 
 Het gereedschap omvat varianten van papieren huishoudboekjes, spreadsheets, checklists, opleidingen en een app.
 
@@ -111,8 +111,8 @@ Het gereedschap biedt ondersteuning voor de volgende functionaliteiten:
    Eenvoudige visuele signalen (zoals een stoplichtsysteem) geven aan of de registratie up-to-date is, of transacties
    correct zijn, en of het budget volgens verwachting wordt uitgeput.
 
-6. **Leningen aflossen**
-   Leningen kunnen worden opgevoerd zodat de voortgang op de aflossing kan worden bekeken.
+6. **Schulden aflossen**
+   Schulden kunnen worden opgevoerd zodat de voortgang op de aflossing kan worden bekeken.
 
 5. **Budgettering/reserveren per periode**  
    Per budgetrekening (zie de [woordenlijst](8-woordenlijst.md)) kan een budget worden vastgesteld voor een bepaalde

@@ -10,24 +10,24 @@ Hierbij worden de rekeningen opgesplitst in balansrekeningen en resultatenrekeni
 
 Balansrekeningen (Rekeningen)
 
-    Bezittingen:
+    Activa:
         Betaalrekening
         Spaarrekening
         Contant geld
-    Schulden:
+    Passiva:
         Creditcard
-        Lening
+        Schuld
         Reservering
 
-Resultatenrekeningen (Categorie&euml;n)
+Resultatenrekeningen
 
     Inkomsten:
-        (Salaris, uitkering, ...)
+        (Salaris, uitkering, rente, ...)
     Uitgaven:
         (Boodschappen, vaste lasten, andere uitgaven, ...)
 
 Let op: per hulpvrager, per rekening, kunnen meerdere varianten worden benoemd. Bijvoorbeeld: Uitgaven opdelen in
-boodschappen, vaste lasten en andere uitgaven. Of verschillende leningen tegelijkertijd afbetalen.
+boodschappen, vaste lasten en andere uitgaven. Of verschillende schulden tegelijkertijd afbetalen.
 
 In PlusMin merkt de gebruiker hier niets van: in elke geregistreerde betaling worden zowel de debet als credit zijde in
 &eacute;&eacute;n keer opgenomen: de dubbele boeking lijkt daardoor een enkelvoudige boeking. PlusMin onderscheidt 8
@@ -36,30 +36,61 @@ altijd als positief getal worden opgegeven.
 
 De 10 betalingssoorten met de debet en credit rekening:
 
-| BetalingsSoort       | Debet           | Credit                     |
-|----------------------|-----------------|----------------------------|
-| Inkomsten            | Inkomsten       | _Betaalmethode_            |
-| Uitgaven             | _Betaalmethode_ | Uitgaven                   |
-| Aflossen creditcard  | Betaalrekening  | Creditcard                 |
-| Besteden reservering | _Betaalmethode_ | Reservering                |
-| Lenen                | Lening          | _Betaalmethode_ of Uitgave |
-| Aflossen lening      | _Betaalmethode_ | Lening                     |
-| Opname spaargeld     | Spaarrekening   | Betaalrekening             |
-| Storten spaargeld    | Betaalrekening  | Spaarrekening              |
-| Opname contant geld  | Betaalrekening  | Contant geld               |
-| Storten contant geld | Contant geld    | Betaalrekening             | 
+| BetalingsSoort       | Debet           | Credit             |
+|----------------------|-----------------|--------------------|
+| Inkomsten            | Inkomsten       | _Ontvangstmethode_ |
+| Rente                | Inkomsten       | Spaarrekening      |
+| Uitgaven             | _Betaalmethode_ | Uitgaven           |
+| Besteden reservering | _Betaalmethode_ | Reservering        |
+| Aflossen schuld      | Betaalrekening  | Schuld             |
+| Aflossen creditcard  | Betaalrekening  | Creditcard         |
+| Opname spaargeld     | Spaarrekening   | Betaalrekening     |
+| Storten spaargeld    | Betaalrekening  | Spaarrekening      |
+| Opname contant geld  | Betaalrekening  | Contant geld       |
+| Storten contant geld | Contant geld    | Betaalrekening     | 
 
-Daar waar '_Betaalmethode_' wordt gebruikt moet de gebruiker kiezen tussen Betaalrekening, Creditcard of Contant geld.
+Daar waar '_Betaalmethode_' wordt gebruikt kan de gebruiker kiezen tussen Betaalrekening, Creditcard of Contant geld.
 
-Onderstaand diagram geeft deze 9 betalingssoorten schematisch weer, waarbij de pijl van debet naar credit wijst.
+Daar waar '_Ontvangstmethode_' wordt gebruikt kan de gebruiker kiezen tussen Betaalrekening of Contant geld.
 
-![](./img/PM-betalingssoort-schema.png)
+Voor de gebruikersinteractie wordt geredeneerd vanuit de beschikbare middelen:
 
-PlusMin staat toe voor elke rekening meerdere varianten te inrichten. Als er meerdere varianten van een rekening
-zijn, moet de gebruiker de betreffende variant kiezen. Hierdoor wordt de gebruikersinteractie complexer. Er moet hier
+- Betaalrekeningen
+- Spaarrekeningen
+- Contant
+- Credit Cards
+- Reserveringen
+
+Reserveringen staan dwars de eerste 4 onderdelen.
+
+![Beschikbare middelen](./img/PM-beschikbare-middelen.png)
+
+De kerntaak van de hulpvrager in de context van PlusMin is het opvoeren van 'betalingen' of 'boekingen'. We delen deze
+in in 3 categorieën:
+
+#### Inkomsten:
+
+Betalingen waarbij er van 'buiten' geld bij komt, bij de beschikbare middelen, dus de BetalingsSoorten Inkomsten en
+Rente
+
+#### Uitgaven:
+
+Betalingen waarbij er geld vanuit de beschikbare middelen naar buiten gaat, dus de BetalingsSoorten Uitgaven, Besteden
+reservering en Aflossen schuld.
+
+#### Intern (schuiven):
+
+Betalingen waarbij er binnen de beschikbare middelen geld van het ene 'vakje' naar een ander 'vakje' wordt geschoven,
+inclusief de incasso van de creditcard.
+
+![Betaal categorien](./img/PM-in-uit-intern.png)
+
+PlusMin staat toe voor veel rekeningen meerdere varianten te inrichten. Voor Inkomsten en voor de Betaalmethoden is
+slechts 1 variant mogelijk. Als er meerdere varianten van een rekening zijn, moet de gebruiker de betreffende variant
+kiezen. Hierdoor wordt de gebruikersinteractie complexer. Er moet hier
 daarom terughoudend mee worden omgegaan.
 
-#### Inrichten
+### Inrichten
 
 Bij het inrichten kan worden gekozen om het aantal RekeningSoorten en het aantal BetalingsSoorten te beperken.
 
@@ -68,45 +99,6 @@ bijvoorbeeld Contant geld). Op basis hiervan zijn er 2 BetalingsSoorten mogelijk
 maar 1 Betaalmethode kan er voor worden gekozen deze onzichtbaar te maken in de User Interface.
 
 Het meest complexe model heeft alle RekeningSoorten en meerdere rekeningen per RekeningSoort.
-
-#### Eenvoud versus juistheid
-
-Bij PlusMin gaat eenvoud boven juistheid. De administratie is voor de hulpvrager, hoeft geen accountantscontrole te
-ondergaan en is niet bedoeld voor de belastingdienst. Het moet de hulpvrager inzicht geven in geldstromen om zo meer
-grip te krijgen op haar/zijn financi&euml;n. Als er aan het eind van de maand minder in kas is dan volgens de
-administratie zou moeten is dat jammer, maar geen wezenlijk probleem. Dat laat overigens onverlet dat het wel een
-gespreksonderwerp kan zijn tussen de vrijwilliger en de hulpvrager.
-
-Op basis van deze prioriteit is gekozen om aflossing altijd in 1 boeking te doen. Bij aflossen wordt (soms) een deel van
-geld besteed aan rente/kosten en een deel aan het verminderen van schuld; dit zou moeten leiden tot 2 boekingen in de
-administratie. Terwille van de eenvoud wordt de fout die dat gevolg heeft geaccepteerd. Zie [aflossen](#aflossen).
-
-De boekhoudkundige verwerking van reserveringen worden automagisch opgebouwd op basis van het defini&euml;ren van
-een [Reservering](#reserveren). Ook een lening of [betaalachterstand](#aflossen) wordt apart opgevoerd. De stand
-van beide rekeningen moet in een openingsbalans, tijdens de initi&euml;le inrichting, worden opgevoerd.
-
-Een belangrijk voordeel van de boekhoudkundige aanpak is de eenvoud waarmee periodiek een balanstotaal kan worden
-berekend, wat een goede maat is voor de financi&euml;le gezondheid. Door deze periodieke meting in de tijd uit te zetten
-is de voortgang helder inzichtelijk en kan een schatting worden gedaan wanneer een doel (bijvoorbeeld schuldenvrij of
-een buffer van een bepaalde hoogte) kan worden bereikt.
-
-Een ander voordeel van de gehanteerde methode is dat alle bedragen (m.u.v. een paar heel uitzonderlijke gevallen) als
-positieve getallen kunnen worden ingevoerd: de app bepaald waar het bij en waar het af moet worden gehaald.
-Uitzonderingen zijn negatieve uitgaven (bijvoorbeeld een pakketje dat retour wordt gestuurd en waarvoor geld wordt
-ontvangen). Dit kan als een negatieve betaling worden geboekt, maar ook als het als inkomsten wordt geboekt gaat het,
-zolang het uitzondering en niet regel is, niet in een keer helemaal mis.
-
-TODO: is dit B1 taalgebruik? of andersom: hoe maken we hier B1 taal van? Volgens ChatGPT:
-
-- Inkomsten
-- Uitgaven
-- Betaling van geld dat je nog moet (terug)betalen
-- Geld dat je nog moet (terug)betalen
-- Betalen van je creditcardschuld
-- Geld gebruiken dat je apart hebt gezet
-- Geld van je spaarrekening halen
-- Geld op je spaarrekening zetten
-- Opname contant geld
 
 ## Groeimodel
 
@@ -120,49 +112,6 @@ mee kunnen groeien met de hulpvrager. In de app worden de volgende niveaus onder
 
 ![Groeimodel](./img/PM-groeimodel.png)
 
-## Verwerking betalingen
-
-#### Betalingen Model
-
-De informatie die bij een betaling wordt gevraagd is:
-
-- de betalingssoort
-- bij een betalingssoort met een betaalmethode: de betaalmethode (Betaalrekening, Creditcard of Contant geld)
-- een rekening met meerdere varianten (bijvoorbeeld 2 leningen): de variant van de rekening
-- datum
-- omschrijving
-- bedrag
-
-De [stand](#stand) van de balansrekeningen op de laatste boekingsdatum kan worden gebruikt om te controleren of alle
-betaling correct zijn verwerkt. Met de stand op de resultaatrekeningen kan worden getoetst of de budgetten toereikend
-zijn.
-
-Als de betalingen van de bank via een camt053 bestand worden ingelezen worden in dat geval ook de volgende
-velden bewaard (als extra ondersteuning bij het, eventueel geautomatiseerd, toewijzen van de Categorie):
-
-- referentie, tegenrekening, naam_tegenrekening, betalingskenmerk, omschrijving_bank en status
-
-Ten slotte wordt, omdat het systeem de betalingen van meerdere gebruikers vastlegd, bij de betaling ook de
-betreffende hulpvrager opgeslagen.
-
-#### Views
-
-PlusMin biedt de mogelijkheid om te kiezen op welke manier je de transacties kunt bekijken.
-
-| view naam             | visualisatie                             | velden                                                                               | opmerking                                                                            |
-|-----------------------|------------------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| dagboek               | chronologisch overzicht alle boekingen   | header: ???<br/>per regel: datum/omschrijving/bedrag/betalingssoort/betaald met      | "betalingssoort" en 'betaald met' als iconen                                         |
-| bankboek/kasboek      | chronologisch overzicht alle boekingen   | header: totaal<br/>per regel: datum/omschrijving/bedrag/betalingssoort/betaalmethode | betalingssoort/betaalmethode als iconen<br/>verbijzondering van &lt;per rekening&gt; |
-| &lt;per categorie&gt; | chronologisch overzicht van de categorie | header: totaal<br/>per regel: datum/omschrijving/bedrag                              |                                                                                      |
-| &lt;per rekening&gt;  | chronologisch overzicht van de rekening  | header: totaal<br/>per regel: datum/omschrijving/bedrag                              |                                                                                      |
-
-Zo kan ook, als voorbeeld, een view als onderstaande spreadsheet (als voorlopig onderdeel van het ecosysteem) worden
-opgebouwd:
-
-![](./img/PM-excel.png)
-
-De gebruiker kan meerdere views naast elkaar openen om het overzicht te vergroten.
-
 ## Budgetteren
 
 Een budget is een geoormerkte uitgave binnen 1 inkomsten cyclus waarvoor een bedrag wordt gereserveerd. Voor alle
@@ -172,7 +121,7 @@ budgetrekeningen genoemd:
 - Inkomsten
 - Uitgaven
 - Creditcard (aflossen creditcard schuld)
-- Leningen
+- Schulden
 - Reserveringen
 
 Bij het inrichten van PlusMin kan per budgetrekening een budget worden vastgelegd. Hierbij kan het Nibud worden gebruikt
@@ -191,7 +140,7 @@ Enkele voorbeelden (zonder de bedragen):
 - koffie/taart met de fietsclub: elke week op zondag
 - aflossing belastingdienst: elke maand op de 2de vrijdag van de maand
 
-Naast budgetten zijn ook het [aflossingsschema](#aflossen) van de leningen en de [reserveringen](#reserveren)
+Naast budgetten zijn ook het [aflossingsschema](#aflossen) van de schulden en de [reserveringen](#reserveren)
 bepalend voor de beschikbare financi&euml;le ruimte per periode.
 
 (TODO nog verder uitwerken)
@@ -213,14 +162,10 @@ eindbedrag is opgenomen.
 Reserveren, de handeling van het opzij zetten van een bedrag om een toekomstige uitgave, haalt dat bedrag van het
 besteedbare budget af en is het dus een negatief bedrag. Het is een betaling van de Reservering (een balans rekening)
 naar de Uitgave rekening waar de besteding voor wordt gedaan. Het staat daardoor als een negatief bedrag op de balans.
-Dat is contra-intu&iuml;tief. Het Besteden (van de) reservering heeft geen gevolgen voor de balans: het bedrag gaat dan van
+Dat is contra-intu&iuml;tief. Het Besteden (van de) reservering heeft geen gevolgen voor de balans: het bedrag gaat dan
+van
 een Betaalmethode (een balansrekening) naar Reservering (ook een balansrekening). Eigenlijk is Reserveren dus geld
 uitgeven zonder het &eacute;cht uit te geven ...
-
-TODO:
-
-- hoe modelleren we Reserveren in de UI? hoe maken we het intu&iuml;tief dat de reservering negatief op de balans drukt?
-- reserveren is nu NIET als betalingssoort gemodelleerd; is dat terecht?
 
 In het kader van de financi&euml;le educatie is het aan te raden de reservering op de spaarrekening te laten storten; de
 besteedbare ruimte is dan beschikbaar op de betaalrekening. Voor de hulpvrager zijn de spaarrekening en de reservering
@@ -237,7 +182,7 @@ Een reservering wordt bij de inrichting opgevoerd:
 
 ## Aflossen
 
-Aflossen is het afbetalen van een lening. Bij aflossen wordt een deel van geld besteed aan rente/kosten en een deel aan
+Aflossen is het afbetalen van een schuld. Bij aflossen wordt een deel van geld besteed aan rente/kosten en een deel aan
 het verminderen van schuld. Dit maakt aflossen inherent ingewikkeld. De vrijwilliger moet hier goed over worden
 ge&iuml;nstrueerd en voor de hulpvrager moet het glashelder zijn wat er van haar hem wordt verwacht.
 
@@ -245,7 +190,7 @@ Bij een creditcard worden de kosten/rente aan de schuld van de card toegevoegd; 
 worden geboekt als een boeking van 'Creditcard' naar 'Andere uitgave'; hiermee wordt de schuld op de creditcard
 automatisch opgehoogd en gaat dat dus goed.
 
-Bij terugbetalen van leningen wordt vaak een bedrag per maand afgesproken. De rente kan in de loop van de tijd wisselen
+Bij terugbetalen van schulden wordt vaak een bedrag per maand afgesproken. De rente kan in de loop van de tijd wisselen
 en de rente en kosten zijn niet altijd transparant. De looptijd van de afbetaling is dan niet op voorhand precies te
 bepalen. PlusMin kiest ervoor deze complexiteit (in het kader van eenvoud boven juistheid) plat te slaan: de afbetaling
 moet worden ingericht als 'benadering'; het afbetaalde bedrag wordt volledig in mindering gebracht op de schuld.
@@ -253,30 +198,30 @@ Bij de restschuld wordt aangegeven dat dit een 'benadering' is die periodiek moe
 informatie van de schuldeiser.
 
 Indien het binnen de competentie van de hulpvrager past kan er altijd voor worden gekozen de aflossing uit te splitsen
-in 2 boekingen: de aflossing als 'aflossen lening' de rente/kosten als 'andere uitgave'; de som van de boekingen
+in 2 boekingen: de aflossing als 'aflossen schuld' de rente/kosten als 'andere uitgave'; de som van de boekingen
 is dan het overgemaakte bedrag. Bij een annu&iuml;teit moet er rekening worden gehouden dat de rente en de kosten in de
 loop van de tijd wijzigen. Het is altijd aan te raden bij de schuldeiser na te gaan of de PlusMin app nog klopt.
 
-Per lening (en een creditcard?) met openstaande schuld wordt bij de inrichting opgevoerd:
+Per schuld (en een creditcard?) met openstaande schuld wordt bij de inrichting opgevoerd:
 
 - de periode waarmee wordt afgelost, en wanneer in die periode (zie toelichting bij [Budgetteren](#budgetteren))
 - het saldo op de startdatum
 - het bedrag
 - 'precies' of 'benadering'
 
-Bij een lening wordt bovendien opgenomen:
+Bij een schuld wordt bovendien opgenomen:
 
 - een omschrijving
 - aanvullende informatie zoals dossiernummers bij betrokken instanties en telefoonnummers van contactpersonen
 
-TODO: lening is eigenlijk niet het juiste woord want het kan ook over een 'gewone' schuld gaan waar geen
-expliciete lening is afgesproken
+TODO: schuld is eigenlijk niet het juiste woord want het kan ook over een 'gewone' schuld gaan waar geen
+expliciete schuld is afgesproken
 
 ## Stand
 
 De stand van zaken gevisualiseerd: een grafische weergave van
 
-- de saldi van de balansrekeningen; reserveringen en leningen uitgesplitst
+- de saldi van de balansrekeningen; reserveringen en schulden uitgesplitst
 - het balanstotaal uitgezet in de tijd
 - de reserveringen met inzicht in de mate waarin het zal worden gehaald
 - de afbetalingsregelingen met inzicht in de resterende looptijd
@@ -354,7 +299,7 @@ Het profiel van de gebruiker omvat:
 - voor de hulpvrager de vrijwilliger die begeleidt
 - voor de vrijwilliger de hulpvragers die zij/hij begeleidt
 - de [reserveringen](#reserveren)
-- de [leningen](#aflossen)
+- de [schulden](#aflossen)
 - de rekeningen (betaalrekening, spaarrekening, contant en/of creditcard)
 - de standaard rekening per categorie
 - standaard inkomsten/uitgaven view(s)

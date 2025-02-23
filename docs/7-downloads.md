@@ -8,7 +8,8 @@ geïnteresseerd in feedback: een mail naar ruud@vliet.io wordt zeer op prijs ges
 ## PlusMin papieren kasboek, spaar- en schuldenoverzicht
 
 De pdf met de papieren versie van het kasboek is hier te downloaden. De pdf is op A4-formaat en kan dubbelzijdig worden
-afgedrukt. De aantal pagina's kunnen dan dubbel worden gevouwen zodat een boekje ontstaat van A5-formaat.
+afgedrukt. Een stapeltje van een aantal pagina's kan dan dubbel worden gevouwen zodat een boekje ontstaat van
+A5-formaat.
 
 - <a href="/downloads/PlusMin_Papier_2xA5_compleet_v1.0.pdf" download="PlusMin_Papier_2xA5_compleet_v1.0.pdf" target="_blank">
   PlusMin Papieren kasboeken, sparen en aflossen</a>

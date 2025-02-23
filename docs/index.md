@@ -10,11 +10,13 @@ De documentatie is 'in wording', net zoals de app zelf trouwens.
 ## Overzicht
 
 `PlusMin` is een **gereedschapskist** voor de **ondersteuning** van **administratiemaatjes** (zie
-bijvoorbeeld [LSTA](https://lsta.nl/), [humanitas thuisadministratie](https://www.humanitas.nl/thuisadministratie/) of
-[schuldhulpmaatje](https://schuldhulpmaatje.nl/)) bij het begeleiden van **hulpvragers** i.h.k.v. **financi&euml;le
-uitdagingen**.
+bijvoorbeeld <a href=https://lsta.nl/ target=_blank>
+LSTA</a>, <a href=https://www.humanitas.nl/thuisadministratie/ target=_blank>humanitas thuisadministratie</a> of
+<a href=https://schuldhulpmaatje.nl/ target=_blank>schuldhulpmaatje</a>) bij het begeleiden van **hulpvragers** i.h.k.v.
+**financi&euml;le uitdagingen**.
 
-`PlusMin` is: Inkomsten en uitgaven, overschot/buffer en tekort, boekhouden voor iedereen, niet digi en niet theoretisch.
+`PlusMin` is: Inkomsten en uitgaven, overschot/buffer en tekort, boekhouden voor iedereen, niet digi en niet
+theoretisch.
 
 Het gereedschap omvat varianten van papieren huishoudboekjes, spreadsheets, checklists, opleidingen en een app.
 

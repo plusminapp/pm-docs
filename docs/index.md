@@ -1,135 +1,59 @@
-﻿# `PlusMin` gereedschapskist
+﻿# De potjes app
 
-**Versie**: {{ git_revision_date }} </br>
-**Auteur**: Ruud van Vliet
+## Inleiding: Grip op geld met potjes
 
-## Disclaimer
+De PlusMin-app helpt mensen met financiële uitdagingen om overzicht en rust te krijgen in hun geldzaken. De app is speciaal ontworpen voor hulpvragers en hun vrijwillige budgetcoaches, die allebei toegang hebben tot dezelfde data. Zo kunnen ze samen plannen, bijsturen en inzicht krijgen — helder, transparant en in één oogopslag.
 
-De documentatie is 'in wording', net zoals de app zelf trouwens.
+De app werkt op basis van **maandperiodes**, waarbij de startdatum vrij te kiezen is. Het is verstandig om een periode te laten beginnen vlak vóór het moment waarop het belangrijkste inkomen binnenkomt, zodat je vanaf dag één kunt plannen.
 
-## Overzicht
+## Budgetteren alsof je met potjes werkt
 
-`PlusMin` is een **gereedschapskist** voor de **ondersteuning** van **administratiemaatjes** (zie
-bijvoorbeeld <a href=https://lsta.nl/ target=_blank>
-LSTA</a>, <a href=https://www.humanitas.nl/thuisadministratie/ target=_blank>humanitas thuisadministratie</a> of
-<a href=https://schuldhulpmaatje.nl/ target=_blank>schuldhulpmaatje</a>) bij het begeleiden van **hulpvragers** i.h.k.v.
-**financi&euml;le uitdagingen**.
+Stel je voor: je zit aan de keukentafel met je geld voor deze maand voor je op een stapeltje. Je verdeelt het over potjes (of enveloppen): één voor de huur, één voor boodschappen, één voor kleding, enzovoorts. Deze app vertaalt dit tastbare principe naar een digitale omgeving. Elk potje vertegenwoordigt een doel of uitgavenpost, en laat precies zien hoeveel geld erin zit — en of dat voldoende is. Je kunt eenvoudig geld van het ene potje overhevelen naar het andere, bijvoorbeeld als je meer geld nodig hebt voor boodschappen deze maand.
 
-`PlusMin` is: Inkomsten en uitgaven, overschot/buffer en tekort, boekhouden voor iedereen, niet digi en niet
-theoretisch.
+## Potjes voor nu en potjes voor later
 
-Het gereedschap omvat varianten van papieren huishoudboekjes, spreadsheets, checklists, opleidingen en een app.
+Er zijn vier soorten potjes, verdeeld over twee categorieën:
 
-Het gereedschap helpt administratiemaatjes en hulpvragers bij het budgetteren, monitoren van inkomsten en uitgaven. Het
-voorkomt onverwachte financi&euml;le problemen. Het doel is laagdrempelige digitale oplossingen te bieden, in combinatie
-met 'papieren' versies. De digitale middelen moeten eenvoudig te gebruiken zijn voor hulpvragers met beperkte digitale
-vaardigheden en minimale apparatuur, zoals alleen een mobiele telefoon.
+### Potjes voor nu
 
-Met de app krijgen administratiemaatjes toegang, ook van huis uit, tot de gegevens die de hulpvrager wil delen, zonder
-dat er toegang tot een bankrekening wordt gegeven, en zonder dat die gegevens mee naar huis worden genomen.
+Potjes voor nu zijn de potjes die nodig zijn voor de huidige periode, de maand waarin je nu zit. Ze zijn bedoeld om de vaste lasten en dagelijkse uitgaven te dekken, en om schulden af te lossen. Elk potje heeft een eigen doel en is apart in te stellen.
 
-## Doelgroep
+1. **Vaste lasten**
+   Voor maandelijkse uitgaven zoals huur, gas, water of verzekeringen. Je stelt in wanneer en hoe vaak de betaling plaatsvindt. Als de vaste last niet elke maand wordt afgeschreven geef je aan in welke maanden wel.Per vaste last is er een apart potje.
 
-In eerste instantie ontwikkel ik de app voor mezelf, maar in de toekomst is het bedoeld voor administratiemaatjes en
-hulpvragers in het algemeen.
+2. **Leefgeld**
+   Voor dagelijkse uitgaven zoals boodschappen of verzorging. Je kunt werken met een maandbudget of een weekbudget (dat automatisch omgerekend wordt naar de maand). Er kunnen meerdere leefgeldpotjes zijn.
 
-## Probleemstelling
+3. **Aflossen**
+   Voor het afbetalen van schulden. Net als bij vaste lasten stel je in wanneer en hoeveel er betaald moet worden. De app houdt ook bij hoeveel schuld er nog openstaat. Elk potje staat voor één schuld.
 
-Een deel van de mensen met geldzorgen heeft weinig digitale vaardigheden en communiceert veel via een mobiele
-telefoon (weinig overzicht, veel door elkaar). In de praktijk blijkt dat bestaande hulpmiddelen voor hulp bij geldzorgen
-door vrijwilliegers niet voldoen aan de behoeften van administratiemaatjes en hulpvragers. Er is behoefte aan een
-eenvoudige, toegankelijke oplossing die:
+### Potjes voor later
 
-- Eenvoudig inkomsten en uitgaven kan registreren
-- Meegroeit met het competentieniveau en motivatie van de hulpvrager
-- Als de competentie van de hulpvrager het toelaat: budgetteren, reserveren en aflossen ondersteunt, en de voortgang
-  bewaakt
-- Heldere signalen geeft bij afwijkingen van de uitputting ten opzichte van het budget
-- Naadloos aansluit op het pakket van checklists, opleidingen, etc.
+Potjes voor later zijn bedoeld voor uitgaven die je in de toekomst verwacht, en dus niet voor de huidige periode. Als zich een tegenvaller voordoet, of als je deze periode op de vakantie gaat waarvoor je hebt gespaard, kun je deze potjes natuurlijk wel in ook de huidige periode gebruiken om de uitgaven te dekken.
 
-Hulpvragers zijn vaak minder digitaal vaardig en hebben niet altijd toegang tot moderne digitale hulpmiddelen. `PlusMin`
-moet daarom makkelijk bruikbaar zijn op mobiele telefoons, het meest gebruikte apparaat door hulpvragers.
+4. **Sparen**
+   Voor uitgaven die je pas later verwacht, zoals een vakantie of nieuwe wasmachine. Je kunt een spaardoel instellen met een deadline of gewoon geld reserveren om de hoeveelheid geld die je uitgeeft (bijvoorbeeld aan kleding) te kunnen beperken en grotere uitgaven (bijvoorbeeld een nieuwe winterjas) toch te kunnen betalen.
 
-## Onderscheidend vermogen
+## Alles draait om overzicht
 
-1. er zijn 4 niveaus van papieren versies van het huishoudboekje voor digitaal niet vaardige hulpvragers, met vervolgens
-   ook spreadsheet versies, en de app, die aansluiten op de niveaus van de papieren versies (herkenbaarheid)
-2. het sluit daardoor aan bij de begeleiding van de hulpvrager door de vrijwilliger (fase ontwikkeling) en de
-   competentie van de hulpvrager
-3. de vrijwilliger kan (in de digitale versie) on-line meekijken en meehelpen, zonder toegang tot de bank, en zonder
-   zaken mee naar huis te nemen
+Op het dashboard zie je in één oogopslag hoe je ervoor staat in de lopende periode. Een visuele **cashflowgrafiek** toont wanneer het geld binnenkomt en wanneer het eruit gaat. De cashflow toont de stand van de rekeningen min de stand van de spaarpotjes. Als je de spaarpotjes op de spaarrekening zet (wat niet noodzakelijk is, maar wel aan te raden voor goed overzicht) is het dus het verloop van de (deels verwachte) stand van je betaalrekening in de periode.
 
-## Motivatietheorie
+![Periode cashflow](./img/PM-periode-cashflow.png)
 
-De PlusMin app is bedoeld voor mensen die zowel financieel als digitaal niet erg vaardig zijn en die hulp krijgen
-vanwege geldzorgen. Omdat langdurig gebrek aan geld zorgt voor veel stress, spant de (vrijwillige) hulpverlener zich in
-om deze stress bij de hulpvrager te verlichten waardoor deze ruimte ervaart om voldoende openheid van zaken te geven (
-inhoudelijk) en zich ook persoonlijk open te stellen voor het proces richting zelfredzaamheid. Deze aanpak, stress
-sensitief werken, volgt de zgn. zelfdeterminatietheorie die leert dat een drietal psychologische basisbehoeften cruciaal
-zijn voor motivatie. Ze verlagen de drempel om nieuw gedrag te ontwikkelen en in actie te komen. Deze basisbehoeften
-zijn:
+Een belangrijke graadmeter is de **reservebuffer**: dit is wat je deze periode overhoudt na aftrek van alles wat je al hebt uitgegeven en nog moet betalen.  De reservebuffer toont de stand van de rekeningen min de stand van álle potjes. Omdat, als het goed is, je met de reserveringen uit de potjes aan alle verplichtingen kan voldoen, geeft de reservebuffer de ruimte aan waarmee je kleine tegenvallers kunt opvangen. (Voor grotere tegenvallers moet je een buffer aanleggen in de spaarpotjes).
 
-- **Autonomie**: De mens wil autonomie ervaren, het gevoel hebben het zelf te kunnen doen. Iedereen wil de regie over
-  het leven, eigen keuzes maken en daardoor in vrijheid leven.
-- **Betrokkenheid**: Ook wel verbondenheid genoemd, betekent de behoefte om relaties aan te gaan met anderen. Het gaat
-  om het gevoel onderdeel te zijn van de groep, te worden gewaardeerd en niet alleen te staan of de enige te zijn die
-  iets overkomt.
-- **Competentie**: Dit is het geloof in jezelf om iets te kunnen en dat je het ook leuk vindt en er plezier aan beleeft.
-  Het gevoel dat je iets zelf kan en voor elkaar kan krijgen.
+![Buffer](./img/PM-stand-buffer.png)
 
-Concreet betekent dit bijv. een hulpvrager helpen zelf keuzes te maken (autonomie), naast de hulpvrager te staan bij het
-uitzoeken van voor- en nadelen van elke keuze en het feit dat dit soms erg lastig is (betrokkenheid) en als vrijwilliger
-geen taken over te nemen maar de hulpvrager helpen het 'zelf te doen' (competentie).
+## Dynamisch en realistisch
 
-Dit is de reden dat de PlusMin app onderdeel is van een ecosysteem met o.a. een papieren versie, checklists,
-opleidingen, etc. Er moet worden voorkomen dat de financi&euml;le administratie over de hulpvrager wordt uitgestort. Het
-is een geleidelijk proces waarbij de hulpvrager op alle drie de basisbehoeften wordt gerespecteerd.
+* Potjes worden alleen gevuld met geld dat **daadwerkelijk op je bankrekening staat**.
+* Inkomsten worden bij binnenkomst automatisch verdeeld over de potjes:
 
-Ook in de app is een groeimodel voorzien. Hoewel de app in een laat stadium wordt ingezet, is de app configureerbaar en
-laat zich aanpassen aan het competentieniveau van de hulpvrager. In de meest eenvoudige vorm registreert de hulpvrager
-alleen betalingen en wijst ze toe aan een categorie. In samenwerking met de vrijwilliger kan zo inzicht verkregen worden
-in de geldstromen. In de meest complexe variant worden budgetten opgesteld, reserveringen gedaan en krijgt de hulpvrager
-signalen als er actie moet worden ondernomen.
+    1. Eerst worden de potjes voor vaste lasten, aflossingen en leefgeld aangevuld, in chronologische volgorde, pro rata per dag.
+    2. Daarna wordt geld verdeeld over de spaarpotjes.
+* Je ziet tot welke datum elk potje “gevuld” is, zodat je weet hoe ver je vooruit kunt.
+* Je kunt geld verplaatsen tussen (spaar)potjes, bijvoorbeeld als een spaarplan verandert.
 
-## Functies
+## Samen werken aan financiële rust
 
-Het gereedschap biedt ondersteuning voor de volgende functionaliteiten:
-
-1. **PlusMin inrichten**  
-   hulpvragers en vrijwilliger kunnen samen de categorie&euml;n bepalen: welke Uitgave rekeningen stellen we vast en
-   welke naam geven we ze? als we een vaste lasten uitgave rekening hebben, wat zijn dan vaste laten? idem voor
-   boodschappen en wat zijn de inkomsten.
-
-2. **Inkomsten en uitgaven registreren**  
-   hulpvragers kunnen vervolgens eenvoudig transacties registreren en categoriseren.
-
-3. **Periode afsluiten**  
-   aan het einde van de inkomsten periode (dus als de nieuwe uitkering of salaris binnenkort wordt ontvangen, of al is
-   ontvangen) evalueren de vrijwilliger en hulpvrager samen de afgelopen periode (wat vind je ervan? waaraan heb je
-   vooral je geld uitgegeven? is dat ok?), kijken wat goed ging en wat kan verbeteren, schuiven indien nodig tussen
-   potjes, en starten de nieuwe periode.
-
-4. **Visuele feedback**  
-   Eenvoudige visuele signalen (zoals een stoplichtsysteem) geven aan of de registratie up-to-date is, of transacties
-   correct zijn, en of het budget volgens verwachting wordt uitgeput.
-
-6. **Schulden aflossen**
-   Schulden kunnen worden opgevoerd zodat de voortgang op de aflossing kan worden bekeken.
-
-5. **Budgettering/reserveren per periode**  
-   Per budgetrekening (zie de [woordenlijst](8-woordenlijst.md)) kan een budget worden vastgesteld voor een bepaalde
-   periode (week, maand, kwartaal of jaar), met een verwachte uitputtingssnelheid. Indien de budgetteringsperiode de
-   inkomstenperiode (meestal een maand) overstijgt registreert PlusMin automatisch een reservering per inkomstenperiode.
-
-7. **Afwijkingen signaleren**  
-   Als het werkelijke uitgavenpatroon te ver afwijkt van het verwachte patroon, kan het systeem waarschuwen en eventueel
-   een melding sturen naar het administratiemaatje, mits de hulpvrager daar toestemming voor geeft.
-
-## Bijdragen
-
-Dit project staat open voor bijdragen. Suggesties, bug reports, en pull requests zijn van harte welkom. De broncode
-wordt beheerd op [Github](https://github.com/plusminapp).
-
-
-
-
+Deze app is een praktische, visuele en toegankelijke manier om het budgetbeheer te structureren. Hulpvragers krijgen overzicht, duidelijkheid en regie; vrijwilligers hebben een handig hulpmiddel om op een positieve manier te ondersteunen. Samen werken ze toe naar financiële stabiliteit — potje voor potje.

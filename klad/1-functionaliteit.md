@@ -63,7 +63,7 @@ Voor de gebruikersinteractie wordt geredeneerd vanuit de beschikbare middelen:
 
 Reserveringen staan dwars de eerste 4 onderdelen.
 
-![Beschikbare middelen](./img/PM-beschikbare-middelen.png)
+![Beschikbare middelen](../docs/img/PM-beschikbare-middelen.png)
 
 De kerntaak van de hulpvrager in de context van PlusMin is het opvoeren van 'betalingen' of 'boekingen'. We delen deze
 in in 3 categorieën:
@@ -83,7 +83,7 @@ reservering en Aflossen schuld.
 Betalingen waarbij er binnen de beschikbare middelen geld van het ene 'vakje' naar een ander 'vakje' wordt geschoven,
 inclusief de incasso van de creditcard.
 
-![Betaal categorien](./img/PM-in-uit-intern.png)
+![Betaal categorien](../docs/img/PM-in-uit-intern.png)
 
 PlusMin staat toe voor veel rekeningen meerdere varianten te inrichten. Voor Inkomsten en voor de Betaalmethoden is
 slechts 1 variant mogelijk. Als er meerdere varianten van een rekening zijn, moet de gebruiker de betreffende variant
@@ -110,7 +110,7 @@ mee kunnen groeien met de hulpvrager. In de app worden de volgende niveaus onder
 - niveau 1: budgetteren/reserveren
 - niveau 2: signaleren
 
-![Groeimodel](./img/PM-groeimodel.png)
+![Groeimodel](../docs/img/PM-groeimodel.png)
 
 ## Budgetteren
 

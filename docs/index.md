@@ -2,7 +2,7 @@
 
 ## Inleiding: Grip op geld met potjes
 
-De PlusMin-app helpt mensen met financiële uitdagingen om overzicht en rust te krijgen in hun geldzaken. De app is speciaal ontworpen voor hulpvragers en hun vrijwillige budgetcoaches, die allebei toegang hebben tot dezelfde data. Zo kunnen ze samen plannen, bijsturen en inzicht krijgen — helder, transparant en in één oogopslag.
+De PlusMin-app helpt mensen met financiële uitdagingen om overzicht en rust te krijgen in hun geldzaken. De app is speciaal ontworpen voor een hulpvrager en budgetcoach, die allebei toegang hebben tot dezelfde data. Zo kunnen ze samen plannen, bijsturen en inzicht krijgen — helder, transparant en in één oogopslag.
 
 De app werkt op basis van **maandperiodes**, waarbij de startdatum vrij te kiezen is. Het is verstandig om een periode te laten beginnen vlak vóór het moment waarop het belangrijkste inkomen binnenkomt, zodat je vanaf dag één kunt plannen.
 
@@ -49,7 +49,7 @@ Een belangrijke graadmeter is de **reservebuffer**: dit is wat je deze periode o
 * Potjes worden alleen gevuld met geld dat **daadwerkelijk op je bankrekening staat**.
 * Inkomsten worden bij binnenkomst automatisch verdeeld over de potjes:
 
-    1. Eerst worden de potjes voor vaste lasten, aflossingen en leefgeld aangevuld, in chronologische volgorde, pro rata per dag.
+    1. Eerst worden de potjes voor vaste lasten, aflossingen en leefgeld aangevuld, in chronologische volgorde.
     2. Daarna wordt geld verdeeld over de spaarpotjes.
 * Je ziet tot welke datum elk potje “gevuld” is, zodat je weet hoe ver je vooruit kunt.
 * Je kunt geld verplaatsen tussen (spaar)potjes, bijvoorbeeld als een spaarplan verandert.

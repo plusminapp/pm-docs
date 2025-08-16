@@ -117,7 +117,7 @@ Het gereedschap biedt ondersteuning voor de volgende functionaliteiten:
    Schulden kunnen worden opgevoerd zodat de voortgang op de aflossing kan worden bekeken.
 
 5. **Budgettering/reserveren per periode**  
-   Per budgetrekening (zie de [woordenlijst](../docs/8-woordenlijst.md)) kan een budget worden vastgesteld voor een bepaalde
+   Per budgetrekening (zie de [woordenlijst](8-woordenlijst.md)) kan een budget worden vastgesteld voor een bepaalde
    periode (week, maand, kwartaal of jaar), met een verwachte uitputtingssnelheid. Indien de budgetteringsperiode de
    inkomstenperiode (meestal een maand) overstijgt registreert PlusMin automatisch een reservering per inkomstenperiode.
 

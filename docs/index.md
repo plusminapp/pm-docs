@@ -18,11 +18,11 @@ Er zijn vier soorten potjes, verdeeld over twee categorieën:
 
 Potjes voor nu zijn de potjes die nodig zijn voor de huidige periode, de maand waarin je nu zit. Ze zijn bedoeld om de vaste lasten en dagelijkse uitgaven te dekken, en om schulden af te lossen. Elk potje heeft een eigen doel en is apart in te stellen.
 
-1. **Vaste lasten**
-   Voor maandelijkse uitgaven zoals huur, gas, water of verzekeringen. Je stelt in wanneer en hoe vaak de betaling plaatsvindt. Als de vaste last niet elke maand wordt afgeschreven geef je aan in welke maanden wel.Per vaste last is er een apart potje.
-
-2. **Leefgeld**
+1. **Leefgeld**
    Voor dagelijkse uitgaven zoals boodschappen of verzorging. Je kunt werken met een maandbudget of een weekbudget (dat automatisch omgerekend wordt naar de maand). Er kunnen meerdere leefgeldpotjes zijn.
+
+2. **Vaste lasten**
+   Voor maandelijkse uitgaven zoals huur, gas, water of verzekeringen. Je stelt in wanneer en hoe vaak de betaling plaatsvindt. Als de vaste last niet elke maand wordt afgeschreven geef je aan in welke maanden wel.Per vaste last is er een apart potje.
 
 3. **Aflossen**
    Voor het afbetalen van schulden. Net als bij vaste lasten stel je in wanneer en hoeveel er betaald moet worden. De app houdt ook bij hoeveel schuld er nog openstaat. Elk potje staat voor één schuld.
@@ -38,11 +38,11 @@ Potjes voor later zijn bedoeld voor uitgaven die je in de toekomst verwacht, en 
 
 Op het dashboard zie je in één oogopslag hoe je ervoor staat in de lopende periode. Een visuele **cashflowgrafiek** toont wanneer het geld binnenkomt en wanneer het eruit gaat. De cashflow toont de stand van de rekeningen min de stand van de spaarpotjes. Als je de spaarpotjes op de spaarrekening zet (wat niet noodzakelijk is, maar wel aan te raden voor goed overzicht) is het dus het verloop van de (deels verwachte) stand van je betaalrekening in de periode.
 
-![Periode cashflow](./img/PM-periode-cashflow.png)
+![Periode cashflow](img/PM-periode-cashflow.png)
 
 Een belangrijke graadmeter is de **reservebuffer**: dit is wat je deze periode overhoudt na aftrek van alles wat je al hebt uitgegeven en nog moet betalen.  De reservebuffer toont de stand van de rekeningen min de stand van álle potjes. Omdat, als het goed is, je met de reserveringen uit de potjes aan alle verplichtingen kan voldoen, geeft de reservebuffer de ruimte aan waarmee je kleine tegenvallers kunt opvangen. (Voor grotere tegenvallers moet je een buffer aanleggen in de spaarpotjes).
 
-![Buffer](./img/PM-stand-buffer.png)
+![Buffer](img/PM-stand-buffer.png)
 
 ## Dynamisch en realistisch
 

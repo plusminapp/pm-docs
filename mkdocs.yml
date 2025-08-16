@@ -5,3 +5,6 @@ plugins:
   - git-revision-date
   - glightbox
   - autorefs
+
+extra_css:
+  - img/custom.css

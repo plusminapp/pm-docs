@@ -1,14 +1,25 @@
-﻿# De potjes app
+﻿# PlusMin de potjes gereedschapskist
 
 ## Inleiding: Grip op geld met potjes
 
-De PlusMin-app helpt mensen met financiële uitdagingen om overzicht en rust te krijgen in hun geldzaken. De app is speciaal ontworpen voor een hulpvrager en budgetcoach, die allebei toegang hebben tot dezelfde data. Zo kunnen ze samen plannen, bijsturen en inzicht krijgen — helder, transparant en in één oogopslag.
+De PlusMin gereedschapskist helpt mensen met financiële uitdagingen om overzicht en rust te krijgen in hun geldzaken. De app, onderdeel van de gereedschapskist, is speciaal ontworpen voor een hulpvrager en budgetcoach, die allebei toegang hebben tot dezelfde data. Zo kunnen ze samen plannen, bijsturen en inzicht krijgen — helder, transparant en in één oogopslag.
 
-De app werkt op basis van **maandperiodes**, waarbij de startdatum vrij te kiezen is. Het is verstandig om een periode te laten beginnen vlak vóór het moment waarop het belangrijkste inkomen binnenkomt, zodat je vanaf dag één kunt plannen.
+## De methode: budgetteren alsof je met potjes werkt
 
-## Budgetteren alsof je met potjes werkt
+Stel je voor: je zit aan de keukentafel met je geld voor deze maand voor je op een stapeltje. Je verdeelt het over potjes (of enveloppen): één voor de huur, één voor boodschappen, één voor kleding, enzovoorts. Deze app vertaalt dit tastbare principe naar een digitale omgeving. Elk potje vertegenwoordigt een doel of uitgavenpost, en laat precies zien hoeveel geld erin zit — en of dat voldoende is. Je kunt eenvoudig geld van het ene potje overhevelen naar het andere, bijvoorbeeld als je meer geld nodig hebt voor boodschappen deze maand. Bedenk dat als we de app gebruiken voor mensen die krap zitten, dat we niet zomaar geld van de ene pot naar de andere kunnen schuiven. We moeten wel rekening houden met de eindstand van de potjes aan het eind van de maand.
 
-Stel je voor: je zit aan de keukentafel met je geld voor deze maand voor je op een stapeltje. Je verdeelt het over potjes (of enveloppen): één voor de huur, één voor boodschappen, één voor kleding, enzovoorts. Deze app vertaalt dit tastbare principe naar een digitale omgeving. Elk potje vertegenwoordigt een doel of uitgavenpost, en laat precies zien hoeveel geld erin zit — en of dat voldoende is. Je kunt eenvoudig geld van het ene potje overhevelen naar het andere, bijvoorbeeld als je meer geld nodig hebt voor boodschappen deze maand.
+De methode werkt op basis van **maandperiodes**, waarbij de startdatum vrij te kiezen is. Het is verstandig om een periode te laten beginnen vlak vóór het moment waarop het belangrijkste inkomen binnenkomt, zodat je vanaf dag één kunt plannen.
+
+Er wordt alleen gewerkt met geld dat daadwerkelijk op de bankrekening staat. Inkomsten worden verdeeld over de potjes volgens een vaste volgorde, tot het volgende (verwachte) inkomstenmoment: eerst de vaste lasten en aflossingen, dan het leefgeld, en als laatste het sparen. Als er onvoldoende geld is om alle potjes te vullen, moeten er keuzes worden gemaakt — wat is het belangrijkste om deze periode te dekken?
+
+## Het onderscheidend vermogen
+Het belangrijkste probleem (om tot financiele redzaamheid te komen) is de financiele educatie en de daarbij benodigde samenwerkingshulpmiddelen voor budgetcoach en hulpvrager. De PlusMin gereedschapskist heeft die samenwerkingshulpmiddelen die de educatie faciliteren:
+
+* een heel eenvoudige, intuitieve methode met een ingebouwde feedback loop
+* grote variatie in vorm (fysiek bordspel, papier, spreadsheets en app), inhoud (verschillende scenario's) en context (deelnemers, doelgroepen)
+* naadloze overgang tussen de verschillende variaties (van bordspel naar app)
+
+De hulpvrager kan de methode onder de knie krijgen met het spel en fictieve scenario's, en daarna overgaan naar voor de echte, eigen situatie. De budgetcoach kan de voortgang volgen en ondersteunen waar nodig.
 
 ## Potjes voor nu en potjes voor later
 

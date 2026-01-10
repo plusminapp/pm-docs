@@ -1,9 +1,9 @@
 ﻿# Visualisatie challenge
 
 ## Inleiding
-Onderstaande tabel is een weergave van de potjes van een fictieve hlpvrager, Alex. Alle potjes zoals die in de app worden gebruikt zijn opgenomen (zie de [home pagina](./index.md)). 
+Onderstaande tabel is een weergave van de potjes van een fictieve hlpvrager, Alex. Alle potjes zoals die in de app worden gebruikt zijn opgenomen (zie de [home pagina](../docs/index.md)). 
 
-![alt tekst](img/PM-reserve-tabel.png)
+![alt tekst](../docs/img/PM-reserve-tabel.png)
 
 De tabel is niet de juiste weergave omdat het onvoldoende inzicht geeft ... 
 

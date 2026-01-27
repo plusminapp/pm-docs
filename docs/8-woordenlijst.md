@@ -80,6 +80,11 @@
     * het bedrag zodanig dat er voor de eerstvolgende betaling voldoende is  
       *(benodigd – huidige reserve) / aantal maanden (incl de huidige maand) nog te gaan*
 
+### Potje
+
+Een potje (ook wel “budgetpotje” genoemd) is een afgebakend bedrag dat je apart zet voor een specifiek doel of uitgave. Het idee is om een overzichtelijk deel te benoemen binnen je totale budget, zodat je gemakkelijk kunt zien hoeveel er nog beschikbaar is voor die bepaalde categorie. 
+
+
 ### Potjes voor nu
 
 * [Leefgeld](#leefgeld), [vaste lasten](#vaste-lasten) en [Aflossing](#aflossen)

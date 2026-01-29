@@ -43,7 +43,7 @@ Potjes voor nu zijn de potjes die nodig zijn voor de huidige periode, de maand w
 Potjes voor later zijn bedoeld voor uitgaven die je in de toekomst verwacht, en dus niet voor de huidige periode. Als zich een tegenvaller voordoet, of als je deze periode op de vakantie gaat waarvoor je hebt gespaard, kun je deze potjes natuurlijk wel in ook de huidige periode gebruiken om de uitgaven te dekken.
 
 4. **Sparen**
-   Voor uitgaven die je pas later verwacht, zoals een vakantie of nieuwe wasmachine. Je kunt een spaardoel instellen met een deadline of gewoon geld reserveren om de hoeveelheid geld die je uitgeeft (bijvoorbeeld aan kleding) te kunnen beperken en grotere uitgaven (bijvoorbeeld een nieuwe winterjas) toch te kunnen betalen.
+   Voor uitgaven die je pas later verwacht, zoals een vakantie of nieuwe wasmachine. Je kunt een spaardoel instellen met een deadline of gewoon geld oormerken om de hoeveelheid geld die je uitgeeft (bijvoorbeeld aan kleding) te kunnen beperken en grotere uitgaven (bijvoorbeeld een nieuwe winterjas) toch te kunnen betalen.
 
 ## Alles draait om overzicht
 
@@ -51,7 +51,7 @@ Op het dashboard zie je in één oogopslag hoe je ervoor staat in de lopende per
 
 ![Periode cashflow](img/PM-periode-cashflow.png)
 
-Een belangrijke graadmeter is de **reservebuffer**: dit is wat je deze periode overhoudt na aftrek van alles wat je al hebt uitgegeven en nog moet betalen.  De reservebuffer toont de stand van de rekeningen min de stand van álle potjes. Omdat, als het goed is, je met de reserveringen uit de potjes aan alle verplichtingen kan voldoen, geeft de reservebuffer de ruimte aan waarmee je kleine tegenvallers kunt opvangen. (Voor grotere tegenvallers moet je een buffer aanleggen in de spaarpotjes).
+Een belangrijke graadmeter is de **reservebuffer**: dit is wat je deze periode overhoudt na aftrek van alles wat je al hebt uitgegeven en nog moet betalen.  De reservebuffer toont de stand van de rekeningen min de stand van álle potjes. Omdat, als het goed is, je met de oormerkingen uit de potjes aan alle verplichtingen kan voldoen, geeft de reservebuffer de ruimte aan waarmee je kleine tegenvallers kunt opvangen. (Voor grotere tegenvallers moet je een buffer aanleggen in de spaarpotjes).
 
 ![Buffer](img/PM-stand-buffer.png)
 

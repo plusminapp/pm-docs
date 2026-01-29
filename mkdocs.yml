@@ -8,3 +8,8 @@ plugins:
 
 extra_css:
   - img/custom.css
+
+# Configure Markdown TOC to include levels 2 and deeper (exclude H1)
+markdown_extensions:
+  - toc:
+      toc_depth: '2-6'

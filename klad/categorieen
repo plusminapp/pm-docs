@@ -8,7 +8,7 @@ PlusMin onderscheidt de volgende categorie&euml;n (de voorbeelden zijn niet uitp
 - **Anders**: Kleding, variabele vervoerskosten, niet vergoede medische kosten, persoonlijke verzorging, cadeautjes,
   identiteitsbewijs, ...
 - **Aflossing**: Betalingen voor een lening
-- **Besteding reservering**: Storting op/opname voor toekomstige uitgaven
+- **Besteding oormerking**: Storting op/opname voor toekomstige uitgaven
 
 ### Bron en bestemming
 
@@ -27,7 +27,7 @@ Naast de standaard rekeningen zijn er ook pseudo rekeningen als bron en bestemmi
 |                    | Als bron                            | Als bestemming |
 |--------------------|-------------------------------------|----------------|
 | **Lening** | nvt?                                | aflossing      |
-| **Reservering**    | aanschaf/betaling van gereserveerde | automatisch    |
+| **Oormerking**    | aanschaf/betaling van gereserveerde | automatisch    |
 
 TODO: hoe bedden we de pseudo rekeningen in, in de UI???
 

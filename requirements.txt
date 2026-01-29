@@ -1,0 +1,4 @@
+mkdocs>=1.4
+mkdocs-git-revision-date-plugin
+mkdocs-autorefs
+mkdocs-glightbox

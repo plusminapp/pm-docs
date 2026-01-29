@@ -1,25 +1,6 @@
 ﻿# Woordenlijst
 
-<!-- TOC -->
-* [Aanvullen TOT of aanvullen MET](#aanvullen-tot-of-aanvullen-met)
-* [Achterstand](#achterstand)
-* [Aflossen](#aflossen)
-* [Betaaldag](#betaaldag)
-* [Betaaldatum](#betaaldatum)
-* [Betaalmiddelen](#betaalmiddelen)
-* [Betaalmethode](#betaalmethode)
-* [Budget](#budget)
-* [Budgethorizon](#budgethorizon)
-* [Buffer](#buffer)
-* [Leefgeld](#leefgeld)
-* [Periodebudget](#periodebudget)
-* [Potjes voor nu](#potjes-voor-nu)
-* [Potjes voor later](#potjes-voor-later)
-* [Reserveringshorizon](#reserveringshorizon)
-* [Reserveren](#reserveren)
-* [Sparen](#sparen)
-* [Vaste lasten](#vaste-lasten)
-<!-- TOC -->
+[TOC]
 
 ### Aanvullen TOT of aanvullen MET
 
@@ -54,6 +35,15 @@
 
 * het [betaalmiddel](#betaalmiddelen) waarmee een potje kan worden gevuld (inkomen) of van waaruit van een potje kan worden betaald (uitgave); vooral bedoeld om de UI eenvoudiger te maken
 
+### Big Five (vaste lasten)
+Hieronder een afwijkende versie van de Big Five; kan nog aangepast worden.
+
+1. Woonlasten: Huur of hypotheek, inclusief eventuele service‑ of onderhoudskosten voor de woning
+2. Energiekosten: Gas‑ en elektriciteitsrekening (en vaak ook water)
+3. Verzekeringen: Opstal‑/inboedelverzekering, wettelijke aansprakelijkheid, zorgverzekering (premie) en eventueel aanvullende verzekeringen
+4. Belastingen: Onroerendezaakbelasting (OZB), gemeentelijke heffingen en andere lokale of landelijke belastingen
+5. Vervoer: Auto‑gerelateerde kosten (lease, brandstof, verzekering, wegenbelasting) of kosten van het openbaar vervoer
+
 ### Budget
 
 * eigenschap van elk potje, voor spaarpotje eventueel ‘wat over is einde periode’ waarbij de gebruiker zelf kan bepalen wat er ‘over’ is
@@ -63,7 +53,7 @@
 
 ### Budgethorizon
 
-* datum tot wanneer de potjes zouden kunnen worden gevuld, dus altijd ná de [reserveringshorizon](#reserveringshorizon) en eventueel in een volgende periode
+* datum tot wanneer de potjes zouden kunnen worden gevuld, dus altijd ná de [oormerkhorizon](#oormerkhorizon) en eventueel in een volgende periode
 
 ### Buffer
 
@@ -71,11 +61,11 @@
 
 ### Leefgeld
 
-* geld dat je kortcyclisch (dagelijks of wekelijks) nodig hebt voor je variabele kosten
+* groep van potjes voor geld dat je kortcyclisch (dagelijks of wekelijks) nodig hebt voor je variabele kosten, bijvoorbeeld boodschappen, brandstop voor de auto of overige dagelkijkse boodschappen.
 
 ### Periodebudget
 
-* als een [vaste lasten](#vaste-lasten) - of [aflossing](#aflossen) potje niet elke maand wordt gebruikt wordt de reservering geconverteerd naar een [periodebudget](#periodebudget), zodanig dat dit het maximum is van:
+* als een [vaste lasten](#vaste-lasten) - of [aflossing](#aflossen) potje niet elke maand wordt gebruikt wordt de oormerking geconverteerd naar een [periodebudget](#periodebudget), zodanig dat dit het maximum is van:
     * het jaarbedrag / 12
     * het bedrag zodanig dat er voor de eerstvolgende betaling voldoende is  
       *(benodigd – huidige reserve) / aantal maanden (incl de huidige maand) nog te gaan*
@@ -93,14 +83,14 @@ Een potje (ook wel “budgetpotje” genoemd) is een afgebakend bedrag dat je ap
 
 * Spaarpotjes, dus potjes om te sparen
 
-### Reserveringshorizon
+### Oormerkhorizon
 
 * datum tot wanneer de potjes zijn gevuld
-* in de app wordt de [reserveringshorizon](#reserveringshorizon) opgeslagen bij de betalingen die de reserveringen boeken;
+* in de app wordt de [oormerkhorizon](#oormerkhorizon) opgeslagen bij de betalingen die de oormerkingen boeken;
 
-### Reserveren
+### Oormerken
 
-* het oormerken (= aan potjes toewijzen) van geld
+* het toewijzen aan potjes van geld
 * waarover je NU kan beschikken,
 * met als doel dat, wanneer je het nodig hebt, je er nog steeds over beschikt
 

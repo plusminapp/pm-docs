@@ -17,7 +17,7 @@ Balansrekeningen (Rekeningen)
     Passiva:
         Creditcard
         Schuld
-        Reservering
+        Oormerking
 
 Resultatenrekeningen
 
@@ -41,7 +41,7 @@ De 10 betalingssoorten met de debet en credit rekening:
 | Inkomsten            | Inkomsten       | _Ontvangstmethode_ |
 | Rente                | Inkomsten       | Spaarrekening      |
 | Uitgaven             | _Betaalmethode_ | Uitgaven           |
-| Besteden reservering | _Betaalmethode_ | Reservering        |
+| Besteden oormerking | _Betaalmethode_ | Oormerking        |
 | Aflossen schuld      | Betaalrekening  | Schuld             |
 | Aflossen creditcard  | Betaalrekening  | Creditcard         |
 | Opname spaargeld     | Spaarrekening   | Betaalrekening     |
@@ -59,9 +59,9 @@ Voor de gebruikersinteractie wordt geredeneerd vanuit de beschikbare middelen:
 - Spaarrekeningen
 - Contant
 - Credit Cards
-- Reserveringen
+- Oormerkingen
 
-Reserveringen staan dwars de eerste 4 onderdelen.
+Oormerkingen staan dwars de eerste 4 onderdelen.
 
 ![Beschikbare middelen](../docs/img/PM-beschikbare-middelen.png)
 
@@ -76,7 +76,7 @@ Rente
 #### Uitgaven:
 
 Betalingen waarbij er geld vanuit de beschikbare middelen naar buiten gaat, dus de BetalingsSoorten Uitgaven, Besteden
-reservering en Aflossen schuld.
+oormerking en Aflossen schuld.
 
 #### Intern (schuiven):
 
@@ -107,7 +107,7 @@ mee kunnen groeien met de hulpvrager. In de app worden de volgende niveaus onder
 
 - basis niveau: verwerken van betalingen, periodeafsluitingen en weergave van de stand
 - niveau 1: aflossen
-- niveau 1: budgetteren/reserveren
+- niveau 1: budgetteren/oormerken
 - niveau 2: signaleren
 
 ![Groeimodel](../docs/img/PM-groeimodel.png)
@@ -122,7 +122,7 @@ budgetrekeningen genoemd:
 - Uitgaven
 - Creditcard (aflossen creditcard schuld)
 - Schulden
-- Reserveringen
+- Oormerkingen
 
 Bij het inrichten van PlusMin kan per budgetrekening een budget worden vastgelegd. Hierbij kan het Nibud worden gebruikt
 voor referentie getallen. Een budget kan worden opgebouwd uit meerdere deelbudgetten (Vaste lasten = huur +
@@ -140,39 +140,39 @@ Enkele voorbeelden (zonder de bedragen):
 - koffie/taart met de fietsclub: elke week op zondag
 - aflossing belastingdienst: elke maand op de 2de vrijdag van de maand
 
-Naast budgetten zijn ook het [aflossingsschema](#aflossen) van de schulden en de [reserveringen](#reserveren)
+Naast budgetten zijn ook het [aflossingsschema](#aflossen) van de schulden en de [oormerkingen](#oormerken)
 bepalend voor de beschikbare financi&euml;le ruimte per periode.
 
 (TODO nog verder uitwerken)
 
-## Reserveren
+## Oormerken
 
-Een reservering is een geoormerkt bedrag dat nodig is om aan een toekomstige (het overstijgt een inkomsten cyclus)
+Een oormerking is een geoormerkt bedrag dat nodig is om aan een toekomstige (het overstijgt een inkomsten cyclus)
 verplichting te voldoen. Voorbeelden: een verzekeringspremie die jaarlijks wordt betaald of een spaardoel, bijvoorbeeld
 een nieuwe wasmachine. Het is een bewuste, expliciete beperking van de bestedingsruimte.
 
-Het verschil tussen een budget en een reservering is de periode die het bestrijkt: zodra het de inkomstenperiode
-overstijgt is het een reservering en wordt er, periodiek, automatisch een bedrag op de Reserveringen rekening geboekt.
+Het verschil tussen een budget en een oormerking is de periode die het bestrijkt: zodra het de inkomstenperiode
+overstijgt is het een oormerking en wordt er, periodiek, automatisch een bedrag op de Oormerkingen rekening geboekt.
 
-PlusMin berekent per reservering het benodigde bedrag, lineair, om op de einddatum voldoende te hebben gespaard. Hierbij
-wordt een referentiedatum genomen, meestal het eind van de huidige inkomstenperiode. Een repeterende reservering
+PlusMin berekent per oormerking het benodigde bedrag, lineair, om op de einddatum voldoende te hebben gespaard. Hierbij
+wordt een referentiedatum genomen, meestal het eind van de huidige inkomstenperiode. Een repeterende oormerking
 (voorbeeld: verzekeringspremie elke 6 maanden) wordt automatisch opnieuw aangemaakt als de einddatum is bereikt en het
 eindbedrag is opgenomen.
 
-Reserveren, de handeling van het opzij zetten van een bedrag om een toekomstige uitgave, haalt dat bedrag van het
-besteedbare budget af en is het dus een negatief bedrag. Het is een betaling van de Reservering (een balans rekening)
+Oormerken, de handeling van het opzij zetten van een bedrag om een toekomstige uitgave, haalt dat bedrag van het
+besteedbare budget af en is het dus een negatief bedrag. Het is een betaling van de Oormerking (een balans rekening)
 naar de Uitgave rekening waar de besteding voor wordt gedaan. Het staat daardoor als een negatief bedrag op de balans.
-Dat is contra-intu&iuml;tief. Het Besteden (van de) reservering heeft geen gevolgen voor de balans: het bedrag gaat dan
+Dat is contra-intu&iuml;tief. Het Besteden (van de) oormerking heeft geen gevolgen voor de balans: het bedrag gaat dan
 van
-een Betaalmethode (een balansrekening) naar Reservering (ook een balansrekening). Eigenlijk is Reserveren dus geld
+een Betaalmethode (een balansrekening) naar Oormerking (ook een balansrekening). Eigenlijk is Oormerken dus geld
 uitgeven zonder het &eacute;cht uit te geven ...
 
-In het kader van de financi&euml;le educatie is het aan te raden de reservering op de spaarrekening te laten storten; de
-besteedbare ruimte is dan beschikbaar op de betaalrekening. Voor de hulpvrager zijn de spaarrekening en de reservering
-dan synoniem geworden. Als er op de spaarrekening onvoldoende geld staat voor de reserveringen leidt dat daarom tot een
+In het kader van de financi&euml;le educatie is het aan te raden de oormerking op de spaarrekening te laten storten; de
+besteedbare ruimte is dan beschikbaar op de betaalrekening. Voor de hulpvrager zijn de spaarrekening en de oormerking
+dan synoniem geworden. Als er op de spaarrekening onvoldoende geld staat voor de oormerkingen leidt dat daarom tot een
 [signaal](#signaleren).
 
-Een reservering wordt bij de inrichting opgevoerd:
+Een oormerking wordt bij de inrichting opgevoerd:
 
 - de uitgave Resultaatrekening
 - een nadere omschrijving/naam
@@ -221,9 +221,9 @@ expliciete schuld is afgesproken
 
 De stand van zaken gevisualiseerd: een grafische weergave van
 
-- de saldi van de balansrekeningen; reserveringen en schulden uitgesplitst
+- de saldi van de balansrekeningen; oormerkingen en schulden uitgesplitst
 - het balanstotaal uitgezet in de tijd
-- de reserveringen met inzicht in de mate waarin het zal worden gehaald
+- de oormerkingen met inzicht in de mate waarin het zal worden gehaald
 - de afbetalingsregelingen met inzicht in de resterende looptijd
 - de uitputting van Uitgaven ten opzichte de te verwachten uitputting ervan
 
@@ -240,8 +240,8 @@ bespreken, en om een nieuwe periode te openen.
 - de resultaatrekeningen worden geschoond (de informatie wordt verwijderd om het afbreuk risico bij een hack te
   beperken; de informatie blijft grotendeels in de bank- en creditcard apps beschikbaar)
 - de ruimte van de budgetten wordt besproken en eventueel gewijzigd
-- de voortgang op reserveringen en aflossingen wordt besproken en eventueel opnieuw ingedeeld (bijvoorbeeld: een
-  reservering waarvan de einddatum wordt uitgesteld om een gemiste afbetaling op een schuld in te halen)
+- de voortgang op oormerkingen en aflossingen wordt besproken en eventueel opnieuw ingedeeld (bijvoorbeeld: een
+  oormerking waarvan de einddatum wordt uitgesteld om een gemiste afbetaling op een schuld in te halen)
 
 TODO: verder uitwerken
 
@@ -263,7 +263,7 @@ periode worden berekend:
 - continue uitgaven worden lineair afgeschreven om het verwachte restbedrag te berekenen
 - voor periodieke betalingen wordt gecheckt of die al hebben plaatsgevonden (TODO hoe herkennen we die?); alle nog te
   verwachten periodieke uitgaven worden opgeteld
-- de benodigde reserveringen voor de einddatum van de inkomstenperiode worden berekend
+- de benodigde oormerkingen voor de einddatum van de inkomstenperiode worden berekend
 
 De som van deze 3 posten wordt vergeleken met de som van de saldi van de rekeningen; indien er op rekeningen 'rood' mag
 worden gestaan kan de som van het rood staan eventueel ook worden getoond om acute cash problemen aan te zien komen.
@@ -298,7 +298,7 @@ Het profiel van de gebruiker omvat:
 - de rol(len)
 - voor de hulpvrager de vrijwilliger die begeleidt
 - voor de vrijwilliger de hulpvragers die zij/hij begeleidt
-- de [reserveringen](#reserveren)
+- de [oormerkingen](#oormerken)
 - de [schulden](#aflossen)
 - de rekeningen (betaalrekening, spaarrekening, contant en/of creditcard)
 - de standaard rekening per categorie

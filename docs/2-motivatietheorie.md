@@ -27,5 +27,5 @@ is een geleidelijk proces waarbij de hulpvrager op alle drie de basisbehoeften w
 Ook in de app is een groeimodel voorzien. Hoewel de app in een laat stadium wordt ingezet, is de app configureerbaar en
 laat zich aanpassen aan het competentieniveau van de hulpvrager. In de meest eenvoudige vorm registreert de hulpvrager
 alleen betalingen en wijst ze toe aan een categorie. In samenwerking met de vrijwilliger kan zo inzicht verkregen worden
-in de geldstromen. In de meest complexe variant worden budgetten opgesteld, reserveringen gedaan en krijgt de hulpvrager
+in de geldstromen. In de meest complexe variant worden budgetten opgesteld, oormerkingen gedaan en krijgt de hulpvrager
 signalen als er actie moet worden ondernomen.

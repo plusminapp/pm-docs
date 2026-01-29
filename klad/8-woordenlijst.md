@@ -11,16 +11,16 @@ synoniem voor vrijwilliger
 #### balansrekening
 
 rekening waar bezittingen (Betaalrekening, Spaarrekening of Contant geld) of schulden (Creditcard, Schuld of
-Reservering) op worden geboekt
+Oormerking) op worden geboekt
 
 #### balansverschuiving TODO goed woord hiervoor
 
 een verschuiving van geld tussen balansrekeningen (dus Aflossen schuld, Aflossen creditcard, Besteding
-reservering, Opname spaargeld, Storten spaargeld of Opname contant geld);
+oormerking, Opname spaargeld, Storten spaargeld of Opname contant geld);
 
 #### betaalmethode
 
-waarvan een betaling, aflossing of besteding reservering wordt betaald: Betaalrekening, Contant geld of Creditcard
+waarvan een betaling, aflossing of besteding oormerking wordt betaald: Betaalrekening, Contant geld of Creditcard
 
 #### betaling
 
@@ -33,7 +33,7 @@ synoniem van boekingsssoort; bewust foutieve benaming om het dichter bij B1 taal
 #### boekingsssoort
 
 de 8 soorten boekingen die PlusMin onderscheidt om een boeking te doen: Inkomsten, Uitgaven, Aflossen schuld,
-Aflossen creditcard, Besteding reservering, Opname spaargeld, Storten spaargeld en Opname contant geld
+Aflossen creditcard, Besteding oormerking, Opname spaargeld, Storten spaargeld en Opname contant geld
 
 #### boeking
 
@@ -50,7 +50,7 @@ een rekening waarvoor een budget kan worden opgesteld (alle rekeningen met uitzo
 
 - Creditcard (schuld)
 - Schulden
-- Reserveringen
+- Oormerkingen
 - Inkomsten
 - Uitgaven
 

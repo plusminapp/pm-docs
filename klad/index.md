@@ -42,7 +42,7 @@ eenvoudige, toegankelijke oplossing die:
 
 - Eenvoudig inkomsten en uitgaven kan registreren
 - Meegroeit met het competentieniveau en motivatie van de hulpvrager
-- Als de competentie van de hulpvrager het toelaat: budgetteren, oormerken en aflossen ondersteunt, en de voortgang
+- Als de competentie van de hulpvrager het toelaat: budgetteren, toewijzen en aflossen ondersteunt, en de voortgang
   bewaakt
 - Heldere signalen geeft bij afwijkingen van de uitputting ten opzichte van het budget
 - Naadloos aansluit op het pakket van checklists, opleidingen, etc.
@@ -88,7 +88,7 @@ is een geleidelijk proces waarbij de hulpvrager op alle drie de basisbehoeften w
 Ook in de app is een groeimodel voorzien. Hoewel de app in een laat stadium wordt ingezet, is de app configureerbaar en
 laat zich aanpassen aan het competentieniveau van de hulpvrager. In de meest eenvoudige vorm registreert de hulpvrager
 alleen betalingen en wijst ze toe aan een categorie. In samenwerking met de vrijwilliger kan zo inzicht verkregen worden
-in de geldstromen. In de meest complexe variant worden budgetten opgesteld, oormerkingen gedaan en krijgt de hulpvrager
+in de geldstromen. In de meest complexe variant worden budgetten opgesteld, toewijzingen gedaan en krijgt de hulpvrager
 signalen als er actie moet worden ondernomen.
 
 ## Functies
@@ -116,10 +116,10 @@ Het gereedschap biedt ondersteuning voor de volgende functionaliteiten:
 6. **Schulden aflossen**
    Schulden kunnen worden opgevoerd zodat de voortgang op de aflossing kan worden bekeken.
 
-5. **Budgettering/oormerken per periode**  
+5. **Budgettering/toewijzen per periode**  
    Per budgetrekening (zie de [woordenlijst](8-woordenlijst.md)) kan een budget worden vastgesteld voor een bepaalde
    periode (week, maand, kwartaal of jaar), met een verwachte uitputtingssnelheid. Indien de budgetteringsperiode de
-   inkomstenperiode (meestal een maand) overstijgt registreert PlusMin automatisch een oormerking per inkomstenperiode.
+   inkomstenperiode (meestal een maand) overstijgt registreert PlusMin automatisch een toewijzing per inkomstenperiode.
 
 7. **Afwijkingen signaleren**  
    Als het werkelijke uitgavenpatroon te ver afwijkt van het verwachte patroon, kan het systeem waarschuwen en eventueel

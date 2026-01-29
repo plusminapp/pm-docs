@@ -53,7 +53,7 @@ Hieronder een afwijkende versie van de Big Five; kan nog aangepast worden.
 
 ### Budgethorizon
 
-* datum tot wanneer de potjes zouden kunnen worden gevuld, dus altijd ná de [oormerkhorizon](#oormerkhorizon) en eventueel in een volgende periode
+* datum tot wanneer de potjes zouden kunnen worden gevuld, dus altijd ná de [toewijzingshorizon](#toewijzingshorizon) en eventueel in een volgende periode
 
 ### Buffer
 
@@ -65,7 +65,7 @@ Hieronder een afwijkende versie van de Big Five; kan nog aangepast worden.
 
 ### Periodebudget
 
-* als een [vaste lasten](#vaste-lasten) - of [aflossing](#aflossen) potje niet elke maand wordt gebruikt wordt de oormerking geconverteerd naar een [periodebudget](#periodebudget), zodanig dat dit het maximum is van:
+* als een [vaste lasten](#vaste-lasten) - of [aflossing](#aflossen) potje niet elke maand wordt gebruikt wordt de toewijzing geconverteerd naar een [periodebudget](#periodebudget), zodanig dat dit het maximum is van:
     * het jaarbedrag / 12
     * het bedrag zodanig dat er voor de eerstvolgende betaling voldoende is  
       *(benodigd – huidige reserve) / aantal maanden (incl de huidige maand) nog te gaan*
@@ -83,14 +83,14 @@ Een potje (ook wel “budgetpotje” genoemd) is een afgebakend bedrag dat je ap
 
 * Spaarpotjes, dus potjes om te sparen
 
-### Oormerkhorizon
+### Toewijzingshorizon
 
 * datum tot wanneer de potjes zijn gevuld
-* in de app wordt de [oormerkhorizon](#oormerkhorizon) opgeslagen bij de betalingen die de oormerkingen boeken;
+* in de app wordt de [toewijzingshorizon](#toewijzingshorizon) opgeslagen bij de betalingen die de toewijzingen boeken;
 
-### Oormerken
+### Toewijzen
 
-* het toewijzen aan potjes van geld
+* het vullen van potjes met geld
 * waarover je NU kan beschikken,
 * met als doel dat, wanneer je het nodig hebt, je er nog steeds over beschikt
 

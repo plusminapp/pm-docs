@@ -77,16 +77,17 @@ Een potje (ook wel “budgetpotje” genoemd) is een afgebakend bedrag dat je ap
 
 ### Potjes voor nu
 
-* [Leefgeld](#leefgeld), [vaste lasten](#vaste-lasten) en [Aflossing](#aflossen)
+* [Leefgeld](#leefgeld), [Vaste lasten](#vaste-lasten) en [Aflossing](#aflossen)
 
 ### Potjes voor later
 
 * Spaarpotjes, dus potjes om te sparen
 
-### Toewijzingshorizon
+### Sparen
 
-* datum tot wanneer de potjes zijn gevuld
-* in de app wordt de [toewijzingshorizon](#toewijzingshorizon) opgeslagen bij de betalingen die de toewijzingen boeken;
+* het opzij zetten van een deel van je geld, met als doel het later gebruiken voor toekomstige uitgaven of onverwachte situaties, zodat er een financiële [buffer](#buffer) ontstaat.
+* [Sparen](#sparen) kán een [budget](#budget) bedrag (je kunt ook gewoon wat 'over' is apart zetten)
+* [Sparen](#sparen) kán een doel hebben (met een doeldatum en een doelbedrag)
 
 ### Toewijzen
 
@@ -94,11 +95,10 @@ Een potje (ook wel “budgetpotje” genoemd) is een afgebakend bedrag dat je ap
 * waarover je NU kan beschikken,
 * met als doel dat, wanneer je het nodig hebt, je er nog steeds over beschikt
 
-### Sparen
+### Toewijzingshorizon
 
-* het opzij zetten van een deel van je geld, met als doel het later gebruiken voor toekomstige uitgaven of onverwachte situaties, zodat er een financiële [buffer](#buffer) ontstaat.
-* [Sparen](#sparen) kán een [budget](#budget) bedrag (je kunt ook gewoon wat 'over' is apart zetten)
-* [Sparen](#sparen) kán een doel hebben (met een doeldatum en een doelbedrag)
+* datum tot wanneer de potjes zijn gevuld
+* in de app wordt de [toewijzingshorizon](#toewijzingshorizon) opgeslagen bij de betalingen die de toewijzingen boeken;
 
 ### Vaste lasten
 

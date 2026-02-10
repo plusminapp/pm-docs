@@ -306,3 +306,37 @@ Het profiel van de gebruiker omvat:
 - een aantal functionele toggles:
     - wel of geen signalen
     - ??? TODO
+
+
+## Het onderscheidend vermogen
+Het belangrijkste probleem (om tot financiële redzaamheid te komen) is de financiële educatie en de daarbij benodigde samenwerkingshulpmiddelen voor budgetcoach en hulpvrager. De PlusMin gereedschapskist heeft die samenwerkingshulpmiddelen die de educatie faciliteren:
+
+* een heel eenvoudige, intuïtieve methode met een ingebouwde feedback loop
+* grote variatie in vorm (fysiek bordspel, papier, spreadsheets en app), inhoud (verschillende scenario's) en context (deelnemers, doelgroepen)
+* naadloze overgang tussen de verschillende variaties (van bordspel naar app)
+
+De hulpvrager kan de methode onder de knie krijgen met het spel en fictieve scenario's, en daarna overgaan naar voor de echte, eigen situatie. De budgetcoach kan de voortgang volgen en ondersteunen waar nodig.
+
+## Alles draait om overzicht
+
+Op het dashboard zie je in één oogopslag hoe je ervoor staat in de lopende periode. Een visuele **cashflowgrafiek** toont wanneer het geld binnenkomt en wanneer het eruit gaat. De cashflow toont de stand van de rekeningen min de stand van de spaarpotjes. Als je de spaarpotjes op de spaarrekening zet (wat niet noodzakelijk is, maar wel aan te raden voor goed overzicht) is het dus het verloop van de (deels verwachte) stand van je betaalrekening in de periode.
+
+![Periode cashflow](img/PM-periode-cashflow.png)
+
+Een belangrijke graadmeter is de **reservebuffer**: dit is wat je deze periode overhoudt na aftrek van alles wat je al hebt uitgegeven en nog moet betalen.  De reservebuffer toont de stand van de rekeningen min de stand van álle potjes. Omdat, als het goed is, je met de toewijzingen uit de potjes aan alle verplichtingen kan voldoen, geeft de reservebuffer de ruimte aan waarmee je kleine tegenvallers kunt opvangen. (Voor grotere tegenvallers moet je een buffer aanleggen in de spaarpotjes).
+
+![Buffer](img/PM-stand-buffer.png)
+
+## Dynamisch en realistisch
+
+* Potjes worden alleen gevuld met geld dat **daadwerkelijk op je bankrekening staat**.
+* Inkomsten worden bij binnenkomst automatisch verdeeld over de potjes:
+
+  1. Eerst worden de potjes voor vaste lasten, aflossingen en leefgeld aangevuld, in chronologische volgorde.
+  2. Daarna wordt geld verdeeld over de spaarpotjes.
+* Je ziet tot welke datum elk potje “gevuld” is, zodat je weet hoe ver je vooruit kunt.
+* Je kunt geld verplaatsen tussen (spaar)potjes, bijvoorbeeld als een spaarplan verandert.
+
+## Samen werken aan financiële rust
+
+Deze app is een praktische, visuele en toegankelijke manier om het budgetbeheer te structureren. Hulpvragers krijgen overzicht, duidelijkheid en regie; vrijwilligers hebben een handig hulpmiddel om op een positieve manier te ondersteunen. Samen werken ze toe naar financiële stabiliteit — potje voor potje.

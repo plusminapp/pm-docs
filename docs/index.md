@@ -25,7 +25,7 @@ De methode wordt beschreven langs 3 assen:
 
 ## De organisatie
 
-PlusMin redeneert vanuit de situatie dat de hulpvrager wordt ondersteund door een budgetcoach (vaak een vrijwilliger). De budgetcoach adviseert, ondersteunt, legt uit, helpt. De hulpvrager blijft zelf verantwoordelijk. 
+PlusMin redeneert vanuit de situatie dat de hulpvrager wordt ondersteund door een administratiemaatje (vaak een vrijwilliger). De administratiemaatje adviseert, ondersteunt, legt uit, helpt. De hulpvrager blijft zelf verantwoordelijk. 
 
 Coordinator rol?
 
@@ -64,18 +64,27 @@ Potjes voor later zijn bedoeld voor uitgaven die je in de toekomst verwacht, en 
    
 ### Uitvoeringsprocedures
 
-#### Toewijzen
+#### [Toewijzen](8-woordenlijst.md#toewijzen)
 
 Er wordt alleen gewerkt met geld dat daadwerkelijk op de bankrekening staat. Alle inkomsten worden verzameld in de [buffer](8-woordenlijst.md#buffer). 
 
-* [toewijzen](8-woordenlijst.md#toewijzen) wordt gestart door de gebruiker; natuurlijke momenten daarvoor zijn de periode start en als er nieuw inkomen is ontvangen; (hiervoor kunnen we in de app een signaal geven)
-* als er tekorten zijn in potjes vanuit de vorige periode moet de gebruiker die eerst [aanvullen](8-woordenlijst.md#aanvullen-tot-of-aanvullen-met); dat kan (in de app) ook geautomatiseerd waarbij de tekorten in mindering worden gebracht op de [buffer](8-woordenlijst.md#buffer)
-* [toewijzen](8-woordenlijst.md#toewijzen) gebruikt alleen geld dat in de [buffer](8-woordenlijst.md#buffer) (en dus niet in (spaar)potjes) zit en waar de gebruiker dus over kan beschikken (dus geen toekomstig inkomen); de som van de potjes is dus altijd de som van de [betaalmiddelen](8-woordenlijst.md#betaalmiddelen); het is wel toegestaan om geld over te hevelen van het ene naar het andere potje
+Bij geautomatiseerd toewijzen stelt de app eerste een toewijzingsvoorstel op. De gebruiker kan configureren of hij/zij het voorstel ongezien wil accepteren; dat kan alleen als er voldoende middelen zijn om alle potjes volgens het budget te vullen. Als de gebruiker eerst het voorstel wil goedkeuren, of als niet alle potjes kunnen worden gevuld, krijgt de gebruiker een tabel met een rij per potje. Het bedrag dat wordt toegewezen kan worden gewijzigd. Elke rij geeft een korte uitleg hoe het voorgestelde bedrag is opgebouwd.
+
+* als er tekorten zijn in potjes vanuit de vorige periode worden die eerst in een (al dan niet ongezien geaccepteerd) toewijzingsvoorstel [aangevuld tot](8-woordenlijst.md#aanvullen-tot-of-aanvullen-met) € 0,00
+* [toewijzen](8-woordenlijst.md#toewijzen) gebruikt alleen geld dat in de [buffer](8-woordenlijst.md#buffer) (en dus niet in (spaar)potjes) zit en waar de gebruiker dus over kan beschikken (dus geen toekomstig inkomen); de som van de potjes is dus altijd de som van de [betaalmiddelen](8-woordenlijst.md#betaalmiddelen); het is wel toegestaan om geld over te hevelen van het ene naar het andere potje;
 * elk potje heeft een positief geheel getal (1, 2, 3, 4, ...) als prioriteit, waarbij 1 de hoogste prioriteit is; het is aan te raden de [Big Five](8-woordenlijst.md#big-five-vaste-lasten) de hoogste prioriteit te geven;
 * [toewijzen](8-woordenlijst.md#toewijzen) verdeelt het beschikbare geld (de [buffer](8-woordenlijst.md#buffer)) in volgorde van prioriteit over de [potjes voor nu](8-woordenlijst.md#potjes-voor-nu)
 * [toewijzen](8-woordenlijst.md#toewijzen) houdt GEEN rekening met handmatige verplaatsingen van geld tussen potjes in de huidige periode;
-* [toewijzen](8-woordenlijst.md#toewijzen) vult de potjes tot het einde van de [buffer](8-woordenlijst.md#buffer) of tot het volgende (verwachte) inkomsten moment; bij het einde van de [buffer](8-woordenlijst.md#buffer) wordt de laatste dag, vóór het einde van de [buffer](8-woordenlijst.md#buffer), helemaal gevuld en de daarop volgende (die dus niet volledig kan worden gevuld) blijft leeg; deze dag "vóór het einde van de [buffer](8-woordenlijst.md#buffer)" of "voor het volgende inkomstenmoment" is de [toewijzingshorizon](8-woordenlijst.md#toewijzingshorizon)
-* als [vaste lasten](8-woordenlijst.md#vaste-lasten) kunnen variëren wijs je het maximum toe dat je kwijt denkt te zijn; een vaste last wordt [aangevuld TOT](8-woordenlijst.md#aanvullen-tot-of-aanvullen-met) dus de elke periode wordt het bedrag van de vorige periode daadwerkelijk toegewezen
+* [toewijzen](8-woordenlijst.md#toewijzen) berekent het (gebudgetteerde, inclusief verwachte inkomsten) moment en hoogte van de minimale stand in een periode; als dit lager is dan € 0,00 wordt de gerbuiker hiervoor gewaarschuwd;
+* voor [vaste lasten](8-woordenlijst.md#vaste-lasten), [aflossen](8-woordenlijst.md#aflossen) en [spaarpotjes](8-woordenlijst.md#sparen) met een spaardoel wordt uitgegaan van het maximum van :
+    * het jaarbedrag / 12
+    * het eerstvolgende te betalen c.q. spaardoel bedrag / aantal maanden tot het eerstvolgende betaalmoment c.q. spaardoelmoment;
+* als dit toe te wijzen bedrag voor vaste lasten of spaarpotjes hoger is dan het budget wordt een waarschuwing gegeven en is het potje _oranje_;
+* [toewijzen](8-woordenlijst.md#toewijzen) vult de potjes tot:
+    * het einde van de periode of, als dat eerder komt
+    * het einde van de [buffer](8-woordenlijst.md#buffer);
+* bij het einde van de [buffer](8-woordenlijst.md#buffer) wordt de laatste dag, vóór het einde van de [buffer](8-woordenlijst.md#buffer), helemaal gevuld en de daarop volgende (die dus niet volledig kan worden gevuld) blijft leeg; deze dag "vóór het einde van de [buffer](8-woordenlijst.md#buffer)" of "voor het volgende inkomstenmoment" is de [toewijzingshorizon](8-woordenlijst.md#toewijzingshorizon)
+* als [vaste lasten](8-woordenlijst.md#vaste-lasten) kunnen variëren wijs je het maximum toe dat je kwijt denkt te zijn; een vaste last wordt [aangevuld TOT](8-woordenlijst.md#aanvullen-tot-of-aanvullen-met) dus elke periode wordt het bedrag van de vorige periode daadwerkelijk toegewezen;
 * na het toewijzen krijgt de gebruiker (in de app) terugkoppeling of het gelukt is; als het niet is gelukt krijgt de gebruiker terugkoppeling **wat** er niet is gelukt; na het toewijzen kan de gebruiker handmatig de potjes herverdelen
 * het is aan te raden spaarpotjes een lage prioriteit (dus een hoog getal) te geven
 * het is aan te raden de spaarpotjes op (een) spaarrekening(en) te zetten, in de app wordt dit inzichtelijk gemaakt

@@ -309,13 +309,13 @@ Het profiel van de gebruiker omvat:
 
 
 ## Het onderscheidend vermogen
-Het belangrijkste probleem (om tot financiële redzaamheid te komen) is de financiële educatie en de daarbij benodigde samenwerkingshulpmiddelen voor budgetcoach en hulpvrager. De PlusMin gereedschapskist heeft die samenwerkingshulpmiddelen die de educatie faciliteren:
+Het belangrijkste probleem (om tot financiële redzaamheid te komen) is de financiële educatie en de daarbij benodigde samenwerkingshulpmiddelen voor administratiemaatje en hulpvrager. De PlusMin gereedschapskist heeft die samenwerkingshulpmiddelen die de educatie faciliteren:
 
 * een heel eenvoudige, intuïtieve methode met een ingebouwde feedback loop
 * grote variatie in vorm (fysiek bordspel, papier, spreadsheets en app), inhoud (verschillende scenario's) en context (deelnemers, doelgroepen)
 * naadloze overgang tussen de verschillende variaties (van bordspel naar app)
 
-De hulpvrager kan de methode onder de knie krijgen met het spel en fictieve scenario's, en daarna overgaan naar voor de echte, eigen situatie. De budgetcoach kan de voortgang volgen en ondersteunen waar nodig.
+De hulpvrager kan de methode onder de knie krijgen met het spel en fictieve scenario's, en daarna overgaan naar voor de echte, eigen situatie. De administratiemaatje kan de voortgang volgen en ondersteunen waar nodig.
 
 ## Alles draait om overzicht
 

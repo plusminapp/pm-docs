@@ -13,6 +13,10 @@
 
 * een [vaste last](#vaste-lasten) of [aflossing](#aflossen) die betaald had moeten zijn maar dat nog niet is; [achterstand](#achterstand) wordt overgeheveld naar de volgende periode
 
+## Administratiemaatje
+
+* De persoon die de hulpvrager ondersteunt om tot financiële redzaamheid te komen; als het op vrijwillige basis gebeurt, is het synoniem met [vrijwilliger](#vrijwilliger)
+
 ## Aflossen
 
 * een [vaste last](#vaste-lasten) die een schuld vermindert
@@ -37,14 +41,12 @@
 Hieronder een afwijkende versie van de Big Five; kan nog aangepast worden.
 
 1. Woonlasten: Huur of hypotheek, inclusief eventuele service‑ of onderhoudskosten voor de woning
-2. Energiekosten: Gas‑ en elektriciteitsrekening (en vaak ook water)
+2. Nuitsvoorzieningen: Gas‑ water- en elektriciteitsrekening (ook wel gas-water-licht of GWL genoemd) en tellen voor 3 van de 5
 3. Verzekeringen: Opstal‑/inboedelverzekering, wettelijke aansprakelijkheid, zorgverzekering (premie) en eventueel aanvullende verzekeringen
-4. Belastingen: Onroerendezaakbelasting (OZB), gemeentelijke heffingen en andere lokale of landelijke belastingen
-5. Vervoer: Auto‑gerelateerde kosten (lease, brandstof, verzekering, wegenbelasting) of kosten van het openbaar vervoer
 
 ## Budget
 
-* eigenschap van elk potje, voor spaarpotje eventueel ‘wat over is einde periode’ waarbij de gebruiker zelf kan bepalen wat er ‘over’ is
+* eigenschap van elk potje
 * voor [leefgeld](#leefgeld): de begrenzing van de besteding per periode
 * voor [vaste lasten](#vaste-lasten)/[aflossing](#aflossen): het bedrag dat wordt afgeschreven, als er wordt afgeschreven; m.a.w.: als er elke 3 maanden € 90 wordt afgeschreven is het [budget](#budget) € 90 ondanks dat er maandelijks maar € 30 opzij wordt gezet; zie ook [periodebudget](#periodebudget)
 * voor [sparen](#sparen): het bedrag dat maandelijks opzij wordt gezet; als er een doelbedrag met een doeldatum is gesteld wordt de gebruiker gewaarschuwd als met het [budget](#budget) het doelbedrag op de doeldatum niet wordt gehaald
@@ -52,10 +54,6 @@ Hieronder een afwijkende versie van de Big Five; kan nog aangepast worden.
 ## Budgethorizon
 
 * datum tot wanneer de potjes zouden kunnen worden gevuld, dus altijd ná de [toewijzingshorizon](#toewijzingshorizon) en eventueel in een volgende periode
-
-## Budgetcoach
-
-* De persoon die de hulpvrager ondersteunt om tot financiële redzaamheid te komen; als het op vrijwillige basis gebeurt, is het synoniem met [vrijwilliger](#vrijwilliger) 
 
 ## Buffer
 
@@ -91,14 +89,15 @@ Een potje (ook wel “budgetpotje” genoemd) is een afgebakend bedrag dat je ap
 
 ## Prioriteit
 
-Elk potje heeft een positief geheel getal (1, 2, 3, 4, ...) als toewijzingsprioriteit, waarbij 1 de hoogste prioriteit is; het is aan te raden de [Big Five](8-woordenlijst.md#big-five-vaste-lasten) de hoogste prioriteit te geven; bij het  [toewijzen](../docs/8-woordenlijst.md#toewijzen) verdeel je het beschikbare geld (de [buffer](../docs/8-woordenlijst.md#buffer)) in volgorde van prioriteit over de [potjes voor nu](../docs/8-woordenlijst.md#potjes-voor-nu).
+Elk potje heeft een positief geheel getal (1, 2, 3, 4, ...) als toewijzingsprioriteit, waarbij 1 de hoogste prioriteit is; het is aan te raden de [Big Five](8-woordenlijst.md#big-five-vaste-lasten) de hoogste prioriteit te geven; bij het  [toewijzen](#toewijzen) verdeel je het beschikbare geld (de [buffer](#buffer)) in volgorde van prioriteit over de [potjes voor nu](#potjes-voor-nu).
 
 
 ## Sparen
 
 * het opzij zetten van een deel van je geld, met als doel het later gebruiken voor toekomstige uitgaven of onverwachte situaties, zodat er een financiële [buffer](#buffer) ontstaat.
-* [Sparen](#sparen) kán een [budget](#budget) bedrag (je kunt ook gewoon wat 'over' is apart zetten)
-* [Sparen](#sparen) kán een doel hebben (met een doeldatum en een doelbedrag)
+* als er geen budget gekoppeld is aan het sparen, wordt gespaard 'wat er over is'; dit noemen we _vrij sparen_; 
+* [Sparen](#sparen) kán een doelbedrag bedrag hebben, zonder dat er een datum aan is gekoppeld; dit doelbedrag is dan een eindbedrag (en dus geen maandbedrag): zodra het doelbedrag is bereikt kan worden gestopt met het verder vullen van het potje: er is voldoende buffer; dit noemen we _buffersparen_; 
+* [Sparen](#sparen) kán een doel hebben (met een doeldatum en een doelbedrag); dit noemen we _doelsparen_;
 
 ## Toewijzen
 

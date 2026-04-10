@@ -113,6 +113,8 @@ En ook bij vaste last kan er geld in het potje blijven nadat het is betaald. Bij
 
 Visualiseren van achterstand bij vaste lasten en aflossingen.
 
+Visualiseren van geaggregeerde potjes (samenvatting per RekeningGroep)
+
 Visualiseren van spaarpotjes.
 
 Visualiseren van inkomsten.

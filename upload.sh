@@ -16,7 +16,12 @@ fi
 mkdocs build
 
 # Copy site to remote host
-scp -r site/ ruud@box:~/pmd/
+scp -r site/ ruud@box:~/io.vliet/pmd/
+scp default.conf.template ruud@box:~/io.vliet/pmd/
+scp docker-compose.yml ruud@box:~/io.vliet/pmd/
+
+# restart the site
+ssh box 'sudo -u ruud bash -lc "cd ~/io.vliet/pmd && ~/io.vliet/pmd/pmd_deploy.sh"'
 
 dt=$(date '+%d/%m/%Y %H:%M:%S');
 echo "$dt"
